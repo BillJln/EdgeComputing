@@ -1,0 +1,9 @@
+pip install torch==1.9.0+cu111 torchvision==0.10.0+cu111 torchaudio==0.9.0 -f https://download.pytorch.org/whl/torch_stable.html
+pip install onnx==1.6.0
+pip install onnx onnxoptimizer onnxruntime-gpu protobuf
+pip install tqdm
+
+pip install ~/Projects/jsjsj2/yolov5-master/rknn/rknn/rknn_toolkit-1.7.1-cp36-cp36m-linux_x86_64.whl -i https://pypi.douban.com/simple
+pip install -i https://pypi.douban.com/simple --trusted-host pypi.douban.com torch==1.9.0 torchaudio==0.9.0 torchvision==0.10.0 tensorflow-cpu==2.1.0 numpy==1.19.5
+
+

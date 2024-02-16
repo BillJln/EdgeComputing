@@ -1,0 +1,7 @@
+train: /home/bill/Projects/jsjsj2/use/images/train
+val: /home/bill/Projects/jsjsj2/use/images/val
+
+nc: 6
+names: ['red','yellow','green', 'turn_left', 'turn_right', 'stop']
+
+

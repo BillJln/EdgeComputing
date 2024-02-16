@@ -1,0 +1,2524 @@
+D Using CPPUTILS: True
+I Start importing onnx...
+W Call onnx.optimizer.optimize fail, skip optimize
+I Current ONNX Model use ir_version 6 opset_version 12
+W Please confirm that your onnx opset_version <= 11 (current opset_verison = 12)!!!
+I Call RKNN onnx optimize fail, skip optimize
+D Calc tensor Constant_268 (0,)
+D Calc tensor Constant_243 (0,)
+D Calc tensor Initializer_512 (4,)
+D Calc tensor Initializer_511 (4,)
+D Calc tensor Initializer_model.24.m.2.bias (33,)
+D Calc tensor Initializer_model.24.m.2.weight (33, 256, 1, 1)
+D Calc tensor Initializer_model.24.m.1.bias (33,)
+D Calc tensor Initializer_model.24.m.1.weight (33, 128, 1, 1)
+D Calc tensor Initializer_model.24.m.0.bias (33,)
+D Calc tensor Initializer_model.24.m.0.weight (33, 64, 1, 1)
+D Calc tensor Initializer_model.23.m.0.cv2.conv.bias (128,)
+D Calc tensor Initializer_model.23.m.0.cv2.conv.weight (128, 128, 3, 3)
+D Calc tensor Initializer_model.23.m.0.cv1.conv.bias (128,)
+D Calc tensor Initializer_model.23.m.0.cv1.conv.weight (128, 128, 1, 1)
+D Calc tensor Initializer_model.23.cv3.conv.bias (256,)
+D Calc tensor Initializer_model.23.cv3.conv.weight (256, 256, 1, 1)
+D Calc tensor Initializer_model.23.cv2.conv.bias (128,)
+D Calc tensor Initializer_model.23.cv2.conv.weight (128, 256, 1, 1)
+D Calc tensor Initializer_model.23.cv1.conv.bias (128,)
+D Calc tensor Initializer_model.23.cv1.conv.weight (128, 256, 1, 1)
+D Calc tensor Initializer_model.21.conv.bias (128,)
+D Calc tensor Initializer_model.21.conv.weight (128, 128, 3, 3)
+D Calc tensor Initializer_model.20.m.0.cv2.conv.bias (64,)
+D Calc tensor Initializer_model.20.m.0.cv2.conv.weight (64, 64, 3, 3)
+D Calc tensor Initializer_model.20.m.0.cv1.conv.bias (64,)
+D Calc tensor Initializer_model.20.m.0.cv1.conv.weight (64, 64, 1, 1)
+D Calc tensor Initializer_model.20.cv3.conv.bias (128,)
+D Calc tensor Initializer_model.20.cv3.conv.weight (128, 128, 1, 1)
+D Calc tensor Initializer_model.20.cv2.conv.bias (64,)
+D Calc tensor Initializer_model.20.cv2.conv.weight (64, 128, 1, 1)
+D Calc tensor Initializer_model.20.cv1.conv.bias (64,)
+D Calc tensor Initializer_model.20.cv1.conv.weight (64, 128, 1, 1)
+D Calc tensor Initializer_model.18.conv.bias (64,)
+D Calc tensor Initializer_model.18.conv.weight (64, 64, 3, 3)
+D Calc tensor Initializer_model.17.m.0.cv2.conv.bias (32,)
+D Calc tensor Initializer_model.17.m.0.cv2.conv.weight (32, 32, 3, 3)
+D Calc tensor Initializer_model.17.m.0.cv1.conv.bias (32,)
+D Calc tensor Initializer_model.17.m.0.cv1.conv.weight (32, 32, 1, 1)
+D Calc tensor Initializer_model.17.cv3.conv.bias (64,)
+D Calc tensor Initializer_model.17.cv3.conv.weight (64, 64, 1, 1)
+D Calc tensor Initializer_model.17.cv2.conv.bias (32,)
+D Calc tensor Initializer_model.17.cv2.conv.weight (32, 128, 1, 1)
+D Calc tensor Initializer_model.17.cv1.conv.bias (32,)
+D Calc tensor Initializer_model.17.cv1.conv.weight (32, 128, 1, 1)
+D Calc tensor Initializer_model.14.conv.bias (64,)
+D Calc tensor Initializer_model.14.conv.weight (64, 128, 1, 1)
+D Calc tensor Initializer_model.13.m.0.cv2.conv.bias (64,)
+D Calc tensor Initializer_model.13.m.0.cv2.conv.weight (64, 64, 3, 3)
+D Calc tensor Initializer_model.13.m.0.cv1.conv.bias (64,)
+D Calc tensor Initializer_model.13.m.0.cv1.conv.weight (64, 64, 1, 1)
+D Calc tensor Initializer_model.13.cv3.conv.bias (128,)
+D Calc tensor Initializer_model.13.cv3.conv.weight (128, 128, 1, 1)
+D Calc tensor Initializer_model.13.cv2.conv.bias (64,)
+D Calc tensor Initializer_model.13.cv2.conv.weight (64, 256, 1, 1)
+D Calc tensor Initializer_model.13.cv1.conv.bias (64,)
+D Calc tensor Initializer_model.13.cv1.conv.weight (64, 256, 1, 1)
+D Calc tensor Initializer_model.10.conv.bias (128,)
+D Calc tensor Initializer_model.10.conv.weight (128, 256, 1, 1)
+D Calc tensor Initializer_model.9.cv2.conv.bias (256,)
+D Calc tensor Initializer_model.9.cv2.conv.weight (256, 512, 1, 1)
+D Calc tensor Initializer_model.9.cv1.conv.bias (128,)
+D Calc tensor Initializer_model.9.cv1.conv.weight (128, 256, 1, 1)
+D Calc tensor Initializer_model.8.m.0.cv2.conv.bias (128,)
+D Calc tensor Initializer_model.8.m.0.cv2.conv.weight (128, 128, 3, 3)
+D Calc tensor Initializer_model.8.m.0.cv1.conv.bias (128,)
+D Calc tensor Initializer_model.8.m.0.cv1.conv.weight (128, 128, 1, 1)
+D Calc tensor Initializer_model.8.cv3.conv.bias (256,)
+D Calc tensor Initializer_model.8.cv3.conv.weight (256, 256, 1, 1)
+D Calc tensor Initializer_model.8.cv2.conv.bias (128,)
+D Calc tensor Initializer_model.8.cv2.conv.weight (128, 256, 1, 1)
+D Calc tensor Initializer_model.8.cv1.conv.bias (128,)
+D Calc tensor Initializer_model.8.cv1.conv.weight (128, 256, 1, 1)
+D Calc tensor Initializer_model.7.conv.bias (256,)
+D Calc tensor Initializer_model.7.conv.weight (256, 128, 3, 3)
+D Calc tensor Initializer_model.6.m.2.cv2.conv.bias (64,)
+D Calc tensor Initializer_model.6.m.2.cv2.conv.weight (64, 64, 3, 3)
+D Calc tensor Initializer_model.6.m.2.cv1.conv.bias (64,)
+D Calc tensor Initializer_model.6.m.2.cv1.conv.weight (64, 64, 1, 1)
+D Calc tensor Initializer_model.6.m.1.cv2.conv.bias (64,)
+D Calc tensor Initializer_model.6.m.1.cv2.conv.weight (64, 64, 3, 3)
+D Calc tensor Initializer_model.6.m.1.cv1.conv.bias (64,)
+D Calc tensor Initializer_model.6.m.1.cv1.conv.weight (64, 64, 1, 1)
+D Calc tensor Initializer_model.6.m.0.cv2.conv.bias (64,)
+D Calc tensor Initializer_model.6.m.0.cv2.conv.weight (64, 64, 3, 3)
+D Calc tensor Initializer_model.6.m.0.cv1.conv.bias (64,)
+D Calc tensor Initializer_model.6.m.0.cv1.conv.weight (64, 64, 1, 1)
+D Calc tensor Initializer_model.6.cv3.conv.bias (128,)
+D Calc tensor Initializer_model.6.cv3.conv.weight (128, 128, 1, 1)
+D Calc tensor Initializer_model.6.cv2.conv.bias (64,)
+D Calc tensor Initializer_model.6.cv2.conv.weight (64, 128, 1, 1)
+D Calc tensor Initializer_model.6.cv1.conv.bias (64,)
+D Calc tensor Initializer_model.6.cv1.conv.weight (64, 128, 1, 1)
+D Calc tensor Initializer_model.5.conv.bias (128,)
+D Calc tensor Initializer_model.5.conv.weight (128, 64, 3, 3)
+D Calc tensor Initializer_model.4.m.1.cv2.conv.bias (32,)
+D Calc tensor Initializer_model.4.m.1.cv2.conv.weight (32, 32, 3, 3)
+D Calc tensor Initializer_model.4.m.1.cv1.conv.bias (32,)
+D Calc tensor Initializer_model.4.m.1.cv1.conv.weight (32, 32, 1, 1)
+D Calc tensor Initializer_model.4.m.0.cv2.conv.bias (32,)
+D Calc tensor Initializer_model.4.m.0.cv2.conv.weight (32, 32, 3, 3)
+D Calc tensor Initializer_model.4.m.0.cv1.conv.bias (32,)
+D Calc tensor Initializer_model.4.m.0.cv1.conv.weight (32, 32, 1, 1)
+D Calc tensor Initializer_model.4.cv3.conv.bias (64,)
+D Calc tensor Initializer_model.4.cv3.conv.weight (64, 64, 1, 1)
+D Calc tensor Initializer_model.4.cv2.conv.bias (32,)
+D Calc tensor Initializer_model.4.cv2.conv.weight (32, 64, 1, 1)
+D Calc tensor Initializer_model.4.cv1.conv.bias (32,)
+D Calc tensor Initializer_model.4.cv1.conv.weight (32, 64, 1, 1)
+D Calc tensor Initializer_model.3.conv.bias (64,)
+D Calc tensor Initializer_model.3.conv.weight (64, 32, 3, 3)
+D Calc tensor Initializer_model.2.m.0.cv2.conv.bias (16,)
+D Calc tensor Initializer_model.2.m.0.cv2.conv.weight (16, 16, 3, 3)
+D Calc tensor Initializer_model.2.m.0.cv1.conv.bias (16,)
+D Calc tensor Initializer_model.2.m.0.cv1.conv.weight (16, 16, 1, 1)
+D Calc tensor Initializer_model.2.cv3.conv.bias (32,)
+D Calc tensor Initializer_model.2.cv3.conv.weight (32, 32, 1, 1)
+D Calc tensor Initializer_model.2.cv2.conv.bias (16,)
+D Calc tensor Initializer_model.2.cv2.conv.weight (16, 32, 1, 1)
+D Calc tensor Initializer_model.2.cv1.conv.bias (16,)
+D Calc tensor Initializer_model.2.cv1.conv.weight (16, 32, 1, 1)
+D Calc tensor Initializer_model.1.conv.bias (32,)
+D Calc tensor Initializer_model.1.conv.weight (32, 16, 3, 3)
+D Calc tensor Initializer_model.0.conv.bias (16,)
+D Calc tensor Initializer_model.0.conv.weight (16, 3, 6, 6)
+D Calc tensor Conv_123 (1, 16, 320, 320)
+D Calc tensor Sigmoid_124 (1, 16, 320, 320)
+D Calc tensor Mul_125 (1, 16, 320, 320)
+D Calc tensor Conv_126 (1, 32, 160, 160)
+D Calc tensor Sigmoid_127 (1, 32, 160, 160)
+D Calc tensor Mul_128 (1, 32, 160, 160)
+D Calc tensor Conv_129 (1, 16, 160, 160)
+D Calc tensor Sigmoid_130 (1, 16, 160, 160)
+D Calc tensor Mul_131 (1, 16, 160, 160)
+D Calc tensor Conv_132 (1, 16, 160, 160)
+D Calc tensor Sigmoid_133 (1, 16, 160, 160)
+D Calc tensor Mul_134 (1, 16, 160, 160)
+D Calc tensor Conv_135 (1, 16, 160, 160)
+D Calc tensor Sigmoid_136 (1, 16, 160, 160)
+D Calc tensor Mul_137 (1, 16, 160, 160)
+D Calc tensor Add_138 (1, 16, 160, 160)
+D Calc tensor Conv_139 (1, 16, 160, 160)
+D Calc tensor Sigmoid_140 (1, 16, 160, 160)
+D Calc tensor Mul_141 (1, 16, 160, 160)
+D Calc tensor Concat_142 (1, 32, 160, 160)
+D Calc tensor Conv_143 (1, 32, 160, 160)
+D Calc tensor Sigmoid_144 (1, 32, 160, 160)
+D Calc tensor Mul_145 (1, 32, 160, 160)
+D Calc tensor Conv_146 (1, 64, 80, 80)
+D Calc tensor Sigmoid_147 (1, 64, 80, 80)
+D Calc tensor Mul_148 (1, 64, 80, 80)
+D Calc tensor Conv_149 (1, 32, 80, 80)
+D Calc tensor Sigmoid_150 (1, 32, 80, 80)
+D Calc tensor Mul_151 (1, 32, 80, 80)
+D Calc tensor Conv_152 (1, 32, 80, 80)
+D Calc tensor Sigmoid_153 (1, 32, 80, 80)
+D Calc tensor Mul_154 (1, 32, 80, 80)
+D Calc tensor Conv_155 (1, 32, 80, 80)
+D Calc tensor Sigmoid_156 (1, 32, 80, 80)
+D Calc tensor Mul_157 (1, 32, 80, 80)
+D Calc tensor Add_158 (1, 32, 80, 80)
+D Calc tensor Conv_159 (1, 32, 80, 80)
+D Calc tensor Sigmoid_160 (1, 32, 80, 80)
+D Calc tensor Mul_161 (1, 32, 80, 80)
+D Calc tensor Conv_162 (1, 32, 80, 80)
+D Calc tensor Sigmoid_163 (1, 32, 80, 80)
+D Calc tensor Mul_164 (1, 32, 80, 80)
+D Calc tensor Add_165 (1, 32, 80, 80)
+D Calc tensor Conv_166 (1, 32, 80, 80)
+D Calc tensor Sigmoid_167 (1, 32, 80, 80)
+D Calc tensor Mul_168 (1, 32, 80, 80)
+D Calc tensor Concat_169 (1, 64, 80, 80)
+D Calc tensor Conv_170 (1, 64, 80, 80)
+D Calc tensor Sigmoid_171 (1, 64, 80, 80)
+D Calc tensor Mul_172 (1, 64, 80, 80)
+D Calc tensor Conv_173 (1, 128, 40, 40)
+D Calc tensor Sigmoid_174 (1, 128, 40, 40)
+D Calc tensor Mul_175 (1, 128, 40, 40)
+D Calc tensor Conv_176 (1, 64, 40, 40)
+D Calc tensor Sigmoid_177 (1, 64, 40, 40)
+D Calc tensor Mul_178 (1, 64, 40, 40)
+D Calc tensor Conv_179 (1, 64, 40, 40)
+D Calc tensor Sigmoid_180 (1, 64, 40, 40)
+D Calc tensor Mul_181 (1, 64, 40, 40)
+D Calc tensor Conv_182 (1, 64, 40, 40)
+D Calc tensor Sigmoid_183 (1, 64, 40, 40)
+D Calc tensor Mul_184 (1, 64, 40, 40)
+D Calc tensor Add_185 (1, 64, 40, 40)
+D Calc tensor Conv_186 (1, 64, 40, 40)
+D Calc tensor Sigmoid_187 (1, 64, 40, 40)
+D Calc tensor Mul_188 (1, 64, 40, 40)
+D Calc tensor Conv_189 (1, 64, 40, 40)
+D Calc tensor Sigmoid_190 (1, 64, 40, 40)
+D Calc tensor Mul_191 (1, 64, 40, 40)
+D Calc tensor Add_192 (1, 64, 40, 40)
+D Calc tensor Conv_193 (1, 64, 40, 40)
+D Calc tensor Sigmoid_194 (1, 64, 40, 40)
+D Calc tensor Mul_195 (1, 64, 40, 40)
+D Calc tensor Conv_196 (1, 64, 40, 40)
+D Calc tensor Sigmoid_197 (1, 64, 40, 40)
+D Calc tensor Mul_198 (1, 64, 40, 40)
+D Calc tensor Add_199 (1, 64, 40, 40)
+D Calc tensor Conv_200 (1, 64, 40, 40)
+D Calc tensor Sigmoid_201 (1, 64, 40, 40)
+D Calc tensor Mul_202 (1, 64, 40, 40)
+D Calc tensor Concat_203 (1, 128, 40, 40)
+D Calc tensor Conv_204 (1, 128, 40, 40)
+D Calc tensor Sigmoid_205 (1, 128, 40, 40)
+D Calc tensor Mul_206 (1, 128, 40, 40)
+D Calc tensor Conv_207 (1, 256, 20, 20)
+D Calc tensor Sigmoid_208 (1, 256, 20, 20)
+D Calc tensor Mul_209 (1, 256, 20, 20)
+D Calc tensor Conv_210 (1, 128, 20, 20)
+D Calc tensor Sigmoid_211 (1, 128, 20, 20)
+D Calc tensor Mul_212 (1, 128, 20, 20)
+D Calc tensor Conv_213 (1, 128, 20, 20)
+D Calc tensor Sigmoid_214 (1, 128, 20, 20)
+D Calc tensor Mul_215 (1, 128, 20, 20)
+D Calc tensor Conv_216 (1, 128, 20, 20)
+D Calc tensor Sigmoid_217 (1, 128, 20, 20)
+D Calc tensor Mul_218 (1, 128, 20, 20)
+D Calc tensor Add_219 (1, 128, 20, 20)
+D Calc tensor Conv_220 (1, 128, 20, 20)
+D Calc tensor Sigmoid_221 (1, 128, 20, 20)
+D Calc tensor Mul_222 (1, 128, 20, 20)
+D Calc tensor Concat_223 (1, 256, 20, 20)
+D Calc tensor Conv_224 (1, 256, 20, 20)
+D Calc tensor Sigmoid_225 (1, 256, 20, 20)
+D Calc tensor Mul_226 (1, 256, 20, 20)
+D Calc tensor Conv_227 (1, 128, 20, 20)
+D Calc tensor Sigmoid_228 (1, 128, 20, 20)
+D Calc tensor Mul_229 (1, 128, 20, 20)
+D Calc tensor MaxPool_230 (1, 128, 20, 20)
+D Calc tensor MaxPool_231 (1, 128, 20, 20)
+D Calc tensor MaxPool_232 (1, 128, 20, 20)
+D Calc tensor Concat_233 (1, 512, 20, 20)
+D Calc tensor Conv_234 (1, 256, 20, 20)
+D Calc tensor Sigmoid_235 (1, 256, 20, 20)
+D Calc tensor Mul_236 (1, 256, 20, 20)
+D Calc tensor Conv_237 (1, 128, 20, 20)
+D Calc tensor Sigmoid_238 (1, 128, 20, 20)
+D Calc tensor Mul_239 (1, 128, 20, 20)
+D Calc tensor Resize_244 (1, 128, 40, 40)
+D Calc tensor Concat_245 (1, 256, 40, 40)
+D Calc tensor Conv_246 (1, 64, 40, 40)
+D Calc tensor Sigmoid_247 (1, 64, 40, 40)
+D Calc tensor Mul_248 (1, 64, 40, 40)
+D Calc tensor Conv_249 (1, 64, 40, 40)
+D Calc tensor Sigmoid_250 (1, 64, 40, 40)
+D Calc tensor Mul_251 (1, 64, 40, 40)
+D Calc tensor Conv_252 (1, 64, 40, 40)
+D Calc tensor Sigmoid_253 (1, 64, 40, 40)
+D Calc tensor Mul_254 (1, 64, 40, 40)
+D Calc tensor Conv_255 (1, 64, 40, 40)
+D Calc tensor Sigmoid_256 (1, 64, 40, 40)
+D Calc tensor Mul_257 (1, 64, 40, 40)
+D Calc tensor Concat_258 (1, 128, 40, 40)
+D Calc tensor Conv_259 (1, 128, 40, 40)
+D Calc tensor Sigmoid_260 (1, 128, 40, 40)
+D Calc tensor Mul_261 (1, 128, 40, 40)
+D Calc tensor Conv_262 (1, 64, 40, 40)
+D Calc tensor Sigmoid_263 (1, 64, 40, 40)
+D Calc tensor Mul_264 (1, 64, 40, 40)
+D Calc tensor Resize_269 (1, 64, 80, 80)
+D Calc tensor Concat_270 (1, 128, 80, 80)
+D Calc tensor Conv_271 (1, 32, 80, 80)
+D Calc tensor Sigmoid_272 (1, 32, 80, 80)
+D Calc tensor Mul_273 (1, 32, 80, 80)
+D Calc tensor Conv_274 (1, 32, 80, 80)
+D Calc tensor Sigmoid_275 (1, 32, 80, 80)
+D Calc tensor Mul_276 (1, 32, 80, 80)
+D Calc tensor Conv_277 (1, 32, 80, 80)
+D Calc tensor Sigmoid_278 (1, 32, 80, 80)
+D Calc tensor Mul_279 (1, 32, 80, 80)
+D Calc tensor Conv_280 (1, 32, 80, 80)
+D Calc tensor Sigmoid_281 (1, 32, 80, 80)
+D Calc tensor Mul_282 (1, 32, 80, 80)
+D Calc tensor Concat_283 (1, 64, 80, 80)
+D Calc tensor Conv_284 (1, 64, 80, 80)
+D Calc tensor Sigmoid_285 (1, 64, 80, 80)
+D Calc tensor Mul_286 (1, 64, 80, 80)
+D Calc tensor Conv_287 (1, 64, 40, 40)
+D Calc tensor Sigmoid_288 (1, 64, 40, 40)
+D Calc tensor Mul_289 (1, 64, 40, 40)
+D Calc tensor Concat_290 (1, 128, 40, 40)
+D Calc tensor Conv_291 (1, 64, 40, 40)
+D Calc tensor Sigmoid_292 (1, 64, 40, 40)
+D Calc tensor Mul_293 (1, 64, 40, 40)
+D Calc tensor Conv_294 (1, 64, 40, 40)
+D Calc tensor Sigmoid_295 (1, 64, 40, 40)
+D Calc tensor Mul_296 (1, 64, 40, 40)
+D Calc tensor Conv_297 (1, 64, 40, 40)
+D Calc tensor Sigmoid_298 (1, 64, 40, 40)
+D Calc tensor Mul_299 (1, 64, 40, 40)
+D Calc tensor Conv_300 (1, 64, 40, 40)
+D Calc tensor Sigmoid_301 (1, 64, 40, 40)
+D Calc tensor Mul_302 (1, 64, 40, 40)
+D Calc tensor Concat_303 (1, 128, 40, 40)
+D Calc tensor Conv_304 (1, 128, 40, 40)
+D Calc tensor Sigmoid_305 (1, 128, 40, 40)
+D Calc tensor Mul_306 (1, 128, 40, 40)
+D Calc tensor Conv_307 (1, 128, 20, 20)
+D Calc tensor Sigmoid_308 (1, 128, 20, 20)
+D Calc tensor Mul_309 (1, 128, 20, 20)
+D Calc tensor Concat_310 (1, 256, 20, 20)
+D Calc tensor Conv_311 (1, 128, 20, 20)
+D Calc tensor Sigmoid_312 (1, 128, 20, 20)
+D Calc tensor Mul_313 (1, 128, 20, 20)
+D Calc tensor Conv_314 (1, 128, 20, 20)
+D Calc tensor Sigmoid_315 (1, 128, 20, 20)
+D Calc tensor Mul_316 (1, 128, 20, 20)
+D Calc tensor Conv_317 (1, 128, 20, 20)
+D Calc tensor Sigmoid_318 (1, 128, 20, 20)
+D Calc tensor Mul_319 (1, 128, 20, 20)
+D Calc tensor Conv_320 (1, 128, 20, 20)
+D Calc tensor Sigmoid_321 (1, 128, 20, 20)
+D Calc tensor Mul_322 (1, 128, 20, 20)
+D Calc tensor Concat_323 (1, 256, 20, 20)
+D Calc tensor Conv_324 (1, 256, 20, 20)
+D Calc tensor Sigmoid_325 (1, 256, 20, 20)
+D Calc tensor Mul_326 (1, 256, 20, 20)
+D Calc tensor Conv_449 (1, 33, 20, 20)
+D Calc tensor Conv_388 (1, 33, 40, 40)
+D Calc tensor Conv_327 (1, 33, 80, 80)
+D import clients finished
+I build output layer attach_Conv_Conv_198:out0
+I build output layer attach_Conv_Conv_247:out0
+I build output layer attach_Conv_Conv_296:out0
+I Try match layer: Conv_Conv_296:out0
+I Match r_conv, convert ONNX layer: ['Conv_Conv_296', 'Initializer_model.24.m.2.weight', 'Initializer_model.24.m.2.bias'](OPs: ['Conv', 'Constant_0', 'Constant_1']) to ['convolution']
+I Try match layer: Conv_Conv_247:out0
+I Match r_conv, convert ONNX layer: ['Conv_Conv_247', 'Initializer_model.24.m.1.weight', 'Initializer_model.24.m.1.bias'](OPs: ['Conv', 'Constant_0', 'Constant_1']) to ['convolution']
+I Try match layer: Conv_Conv_198:out0
+I Match r_conv, convert ONNX layer: ['Conv_Conv_198', 'Initializer_model.24.m.0.weight', 'Initializer_model.24.m.0.bias'](OPs: ['Conv', 'Constant_0', 'Constant_1']) to ['convolution']
+I Try match layer: Mul_Mul_197:out0
+I Match r_mul, convert ONNX layer: ['Mul_Mul_197'](OPs: ['Mul']) to ['multiply']
+I Try match layer: Mul_Mul_177:out0
+I Match r_mul, convert ONNX layer: ['Mul_Mul_177'](OPs: ['Mul']) to ['multiply']
+I Try match layer: Mul_Mul_157:out0
+I Match r_mul, convert ONNX layer: ['Mul_Mul_157'](OPs: ['Mul']) to ['multiply']
+I Try match layer: Conv_Conv_195:out0
+I Match r_conv, convert ONNX layer: ['Conv_Conv_195', 'Initializer_model.23.cv3.conv.weight', 'Initializer_model.23.cv3.conv.bias'](OPs: ['Conv', 'Constant_0', 'Constant_1']) to ['convolution']
+I Try match layer: Sigmoid_Sigmoid_196:out0
+I Match r_sigmoid, convert ONNX layer: ['Sigmoid_Sigmoid_196'](OPs: ['Sigmoid']) to ['Sigmoid']
+I Try match layer: Conv_Conv_175:out0
+I Match r_conv, convert ONNX layer: ['Conv_Conv_175', 'Initializer_model.20.cv3.conv.weight', 'Initializer_model.20.cv3.conv.bias'](OPs: ['Conv', 'Constant_0', 'Constant_1']) to ['convolution']
+I Try match layer: Sigmoid_Sigmoid_176:out0
+I Match r_sigmoid, convert ONNX layer: ['Sigmoid_Sigmoid_176'](OPs: ['Sigmoid']) to ['Sigmoid']
+I Try match layer: Conv_Conv_155:out0
+I Match r_conv, convert ONNX layer: ['Conv_Conv_155', 'Initializer_model.17.cv3.conv.weight', 'Initializer_model.17.cv3.conv.bias'](OPs: ['Conv', 'Constant_0', 'Constant_1']) to ['convolution']
+I Try match layer: Sigmoid_Sigmoid_156:out0
+I Match r_sigmoid, convert ONNX layer: ['Sigmoid_Sigmoid_156'](OPs: ['Sigmoid']) to ['Sigmoid']
+I Try match layer: Concat_Concat_194:out0
+I Match concat_2, convert ONNX layer: ['Concat_Concat_194'](OPs: ['Concat']) to ['concat']
+I Try match layer: Mul_Mul_193:out0
+I Match r_mul, convert ONNX layer: ['Mul_Mul_193'](OPs: ['Mul']) to ['multiply']
+I Try match layer: Concat_Concat_174:out0
+I Match concat_2, convert ONNX layer: ['Concat_Concat_174'](OPs: ['Concat']) to ['concat']
+I Try match layer: Mul_Mul_173:out0
+I Match r_mul, convert ONNX layer: ['Mul_Mul_173'](OPs: ['Mul']) to ['multiply']
+I Try match layer: Concat_Concat_154:out0
+I Match concat_2, convert ONNX layer: ['Concat_Concat_154'](OPs: ['Concat']) to ['concat']
+I Try match layer: Mul_Mul_153:out0
+I Match r_mul, convert ONNX layer: ['Mul_Mul_153'](OPs: ['Mul']) to ['multiply']
+I Try match layer: Mul_Mul_190:out0
+I Match r_mul, convert ONNX layer: ['Mul_Mul_190'](OPs: ['Mul']) to ['multiply']
+I Try match layer: Conv_Conv_191:out0
+I Match r_conv, convert ONNX layer: ['Conv_Conv_191', 'Initializer_model.23.cv2.conv.weight', 'Initializer_model.23.cv2.conv.bias'](OPs: ['Conv', 'Constant_0', 'Constant_1']) to ['convolution']
+I Try match layer: Sigmoid_Sigmoid_192:out0
+I Match r_sigmoid, convert ONNX layer: ['Sigmoid_Sigmoid_192'](OPs: ['Sigmoid']) to ['Sigmoid']
+I Try match layer: Mul_Mul_170:out0
+I Match r_mul, convert ONNX layer: ['Mul_Mul_170'](OPs: ['Mul']) to ['multiply']
+I Try match layer: Conv_Conv_171:out0
+I Match r_conv, convert ONNX layer: ['Conv_Conv_171', 'Initializer_model.20.cv2.conv.weight', 'Initializer_model.20.cv2.conv.bias'](OPs: ['Conv', 'Constant_0', 'Constant_1']) to ['convolution']
+I Try match layer: Sigmoid_Sigmoid_172:out0
+I Match r_sigmoid, convert ONNX layer: ['Sigmoid_Sigmoid_172'](OPs: ['Sigmoid']) to ['Sigmoid']
+I Try match layer: Mul_Mul_150:out0
+I Match r_mul, convert ONNX layer: ['Mul_Mul_150'](OPs: ['Mul']) to ['multiply']
+I Try match layer: Conv_Conv_151:out0
+I Match r_conv, convert ONNX layer: ['Conv_Conv_151', 'Initializer_model.17.cv2.conv.weight', 'Initializer_model.17.cv2.conv.bias'](OPs: ['Conv', 'Constant_0', 'Constant_1']) to ['convolution']
+I Try match layer: Sigmoid_Sigmoid_152:out0
+I Match r_sigmoid, convert ONNX layer: ['Sigmoid_Sigmoid_152'](OPs: ['Sigmoid']) to ['Sigmoid']
+I Try match layer: Conv_Conv_188:out0
+I Match r_conv, convert ONNX layer: ['Conv_Conv_188', 'Initializer_model.23.m.0.cv2.conv.weight', 'Initializer_model.23.m.0.cv2.conv.bias'](OPs: ['Conv', 'Constant_0', 'Constant_1']) to ['convolution']
+I Try match layer: Sigmoid_Sigmoid_189:out0
+I Match r_sigmoid, convert ONNX layer: ['Sigmoid_Sigmoid_189'](OPs: ['Sigmoid']) to ['Sigmoid']
+I Try match layer: Concat_Concat_181:out0
+I Match concat_2, convert ONNX layer: ['Concat_Concat_181'](OPs: ['Concat']) to ['concat']
+I Try match layer: Mul_Mul_116:out0
+I Match r_mul, convert ONNX layer: ['Mul_Mul_116'](OPs: ['Mul']) to ['multiply']
+I Try match layer: Conv_Conv_168:out0
+I Match r_conv, convert ONNX layer: ['Conv_Conv_168', 'Initializer_model.20.m.0.cv2.conv.weight', 'Initializer_model.20.m.0.cv2.conv.bias'](OPs: ['Conv', 'Constant_0', 'Constant_1']) to ['convolution']
+I Try match layer: Sigmoid_Sigmoid_169:out0
+I Match r_sigmoid, convert ONNX layer: ['Sigmoid_Sigmoid_169'](OPs: ['Sigmoid']) to ['Sigmoid']
+I Try match layer: Concat_Concat_161:out0
+I Match concat_2, convert ONNX layer: ['Concat_Concat_161'](OPs: ['Concat']) to ['concat']
+I Try match layer: Mul_Mul_138:out0
+I Match r_mul, convert ONNX layer: ['Mul_Mul_138'](OPs: ['Mul']) to ['multiply']
+I Try match layer: Conv_Conv_148:out0
+I Match r_conv, convert ONNX layer: ['Conv_Conv_148', 'Initializer_model.17.m.0.cv2.conv.weight', 'Initializer_model.17.m.0.cv2.conv.bias'](OPs: ['Conv', 'Constant_0', 'Constant_1']) to ['convolution']
+I Try match layer: Sigmoid_Sigmoid_149:out0
+I Match r_sigmoid, convert ONNX layer: ['Sigmoid_Sigmoid_149'](OPs: ['Sigmoid']) to ['Sigmoid']
+I Try match layer: Concat_Concat_141:out0
+I Match concat_2, convert ONNX layer: ['Concat_Concat_141'](OPs: ['Concat']) to ['concat']
+I Try match layer: Mul_Mul_49:out0
+I Match r_mul, convert ONNX layer: ['Mul_Mul_49'](OPs: ['Mul']) to ['multiply']
+I Try match layer: Mul_Mul_187:out0
+I Match r_mul, convert ONNX layer: ['Mul_Mul_187'](OPs: ['Mul']) to ['multiply']
+I Try match layer: Sigmoid_Sigmoid_186:out0
+I Match r_sigmoid, convert ONNX layer: ['Sigmoid_Sigmoid_186'](OPs: ['Sigmoid']) to ['Sigmoid']
+I Try match layer: Mul_Mul_180:out0
+I Match r_mul, convert ONNX layer: ['Mul_Mul_180'](OPs: ['Mul']) to ['multiply']
+I Try match layer: Conv_Conv_114:out0
+I Match r_conv, convert ONNX layer: ['Conv_Conv_114', 'Initializer_model.10.conv.weight', 'Initializer_model.10.conv.bias'](OPs: ['Conv', 'Constant_0', 'Constant_1']) to ['convolution']
+I Try match layer: Sigmoid_Sigmoid_115:out0
+I Match r_sigmoid, convert ONNX layer: ['Sigmoid_Sigmoid_115'](OPs: ['Sigmoid']) to ['Sigmoid']
+I Try match layer: Mul_Mul_167:out0
+I Match r_mul, convert ONNX layer: ['Mul_Mul_167'](OPs: ['Mul']) to ['multiply']
+I Try match layer: Sigmoid_Sigmoid_166:out0
+I Match r_sigmoid, convert ONNX layer: ['Sigmoid_Sigmoid_166'](OPs: ['Sigmoid']) to ['Sigmoid']
+I Try match layer: Mul_Mul_160:out0
+I Match r_mul, convert ONNX layer: ['Mul_Mul_160'](OPs: ['Mul']) to ['multiply']
+I Try match layer: Conv_Conv_136:out0
+I Match r_conv, convert ONNX layer: ['Conv_Conv_136', 'Initializer_model.14.conv.weight', 'Initializer_model.14.conv.bias'](OPs: ['Conv', 'Constant_0', 'Constant_1']) to ['convolution']
+I Try match layer: Sigmoid_Sigmoid_137:out0
+I Match r_sigmoid, convert ONNX layer: ['Sigmoid_Sigmoid_137'](OPs: ['Sigmoid']) to ['Sigmoid']
+I Try match layer: Mul_Mul_147:out0
+I Match r_mul, convert ONNX layer: ['Mul_Mul_147'](OPs: ['Mul']) to ['multiply']
+I Try match layer: Sigmoid_Sigmoid_146:out0
+I Match r_sigmoid, convert ONNX layer: ['Sigmoid_Sigmoid_146'](OPs: ['Sigmoid']) to ['Sigmoid']
+I Try match layer: Resize_Resize_140:out0
+I Match r_resize_size, convert ONNX layer: ['Resize_Resize_140', 'Constant_Constant_139', 'Initializer_512'](OPs: ['Resize']) to ['image_resize']
+I Try match layer: Conv_Conv_47:out0
+I Match r_conv, convert ONNX layer: ['Conv_Conv_47', 'Initializer_model.4.cv3.conv.weight', 'Initializer_model.4.cv3.conv.bias'](OPs: ['Conv', 'Constant_0', 'Constant_1']) to ['convolution']
+I Try match layer: Sigmoid_Sigmoid_48:out0
+I Match r_sigmoid, convert ONNX layer: ['Sigmoid_Sigmoid_48'](OPs: ['Sigmoid']) to ['Sigmoid']
+I Try match layer: Conv_Conv_185:out0
+I Match r_conv, convert ONNX layer: ['Conv_Conv_185', 'Initializer_model.23.m.0.cv1.conv.weight', 'Initializer_model.23.m.0.cv1.conv.bias'](OPs: ['Conv', 'Constant_0', 'Constant_1']) to ['convolution']
+I Try match layer: Mul_Mul_184:out0
+I Match r_mul, convert ONNX layer: ['Mul_Mul_184'](OPs: ['Mul']) to ['multiply']
+I Try match layer: Conv_Conv_178:out0
+I Match r_conv, convert ONNX layer: ['Conv_Conv_178', 'Initializer_model.21.conv.weight', 'Initializer_model.21.conv.bias'](OPs: ['Conv', 'Constant_0', 'Constant_1']) to ['convolution']
+I Try match layer: Sigmoid_Sigmoid_179:out0
+I Match r_sigmoid, convert ONNX layer: ['Sigmoid_Sigmoid_179'](OPs: ['Sigmoid']) to ['Sigmoid']
+I Try match layer: Mul_Mul_113:out0
+I Match r_mul, convert ONNX layer: ['Mul_Mul_113'](OPs: ['Mul']) to ['multiply']
+I Try match layer: Sigmoid_Sigmoid_112:out0
+I Match r_sigmoid, convert ONNX layer: ['Sigmoid_Sigmoid_112'](OPs: ['Sigmoid']) to ['Sigmoid']
+I Try match layer: Conv_Conv_165:out0
+I Match r_conv, convert ONNX layer: ['Conv_Conv_165', 'Initializer_model.20.m.0.cv1.conv.weight', 'Initializer_model.20.m.0.cv1.conv.bias'](OPs: ['Conv', 'Constant_0', 'Constant_1']) to ['convolution']
+I Try match layer: Mul_Mul_164:out0
+I Match r_mul, convert ONNX layer: ['Mul_Mul_164'](OPs: ['Mul']) to ['multiply']
+I Try match layer: Conv_Conv_158:out0
+I Match r_conv, convert ONNX layer: ['Conv_Conv_158', 'Initializer_model.18.conv.weight', 'Initializer_model.18.conv.bias'](OPs: ['Conv', 'Constant_0', 'Constant_1']) to ['convolution']
+I Try match layer: Sigmoid_Sigmoid_159:out0
+I Match r_sigmoid, convert ONNX layer: ['Sigmoid_Sigmoid_159'](OPs: ['Sigmoid']) to ['Sigmoid']
+I Try match layer: Mul_Mul_135:out0
+I Match r_mul, convert ONNX layer: ['Mul_Mul_135'](OPs: ['Mul']) to ['multiply']
+I Try match layer: Sigmoid_Sigmoid_134:out0
+I Match r_sigmoid, convert ONNX layer: ['Sigmoid_Sigmoid_134'](OPs: ['Sigmoid']) to ['Sigmoid']
+I Try match layer: Conv_Conv_145:out0
+I Match r_conv, convert ONNX layer: ['Conv_Conv_145', 'Initializer_model.17.m.0.cv1.conv.weight', 'Initializer_model.17.m.0.cv1.conv.bias'](OPs: ['Conv', 'Constant_0', 'Constant_1']) to ['convolution']
+I Try match layer: Mul_Mul_144:out0
+I Match r_mul, convert ONNX layer: ['Mul_Mul_144'](OPs: ['Mul']) to ['multiply']
+I Try match layer: Sigmoid_Sigmoid_143:out0
+I Match r_sigmoid, convert ONNX layer: ['Sigmoid_Sigmoid_143'](OPs: ['Sigmoid']) to ['Sigmoid']
+I Try match layer: Concat_Concat_46:out0
+I Match concat_2, convert ONNX layer: ['Concat_Concat_46'](OPs: ['Concat']) to ['concat']
+I Try match layer: Mul_Mul_45:out0
+I Match r_mul, convert ONNX layer: ['Mul_Mul_45'](OPs: ['Mul']) to ['multiply']
+I Try match layer: Conv_Conv_182:out0
+I Match r_conv, convert ONNX layer: ['Conv_Conv_182', 'Initializer_model.23.cv1.conv.weight', 'Initializer_model.23.cv1.conv.bias'](OPs: ['Conv', 'Constant_0', 'Constant_1']) to ['convolution']
+I Try match layer: Sigmoid_Sigmoid_183:out0
+I Match r_sigmoid, convert ONNX layer: ['Sigmoid_Sigmoid_183'](OPs: ['Sigmoid']) to ['Sigmoid']
+I Try match layer: Sigmoid_Sigmoid_44:out0
+I Match r_sigmoid, convert ONNX layer: ['Sigmoid_Sigmoid_44'](OPs: ['Sigmoid']) to ['Sigmoid']
+I Try match layer: Conv_Conv_43:out0
+I Match r_conv, convert ONNX layer: ['Conv_Conv_43', 'Initializer_model.4.cv2.conv.weight', 'Initializer_model.4.cv2.conv.bias'](OPs: ['Conv', 'Constant_0', 'Constant_1']) to ['convolution']
+I Try match layer: Conv_Conv_111:out0
+I Match r_conv, convert ONNX layer: ['Conv_Conv_111', 'Initializer_model.9.cv2.conv.weight', 'Initializer_model.9.cv2.conv.bias'](OPs: ['Conv', 'Constant_0', 'Constant_1']) to ['convolution']
+I Try match layer: Concat_Concat_110:out0
+I Match concat_4, convert ONNX layer: ['Concat_Concat_110'](OPs: ['Concat']) to ['concat']
+I Try match layer: Conv_Conv_162:out0
+I Match r_conv, convert ONNX layer: ['Conv_Conv_162', 'Initializer_model.20.cv1.conv.weight', 'Initializer_model.20.cv1.conv.bias'](OPs: ['Conv', 'Constant_0', 'Constant_1']) to ['convolution']
+I Try match layer: Sigmoid_Sigmoid_163:out0
+I Match r_sigmoid, convert ONNX layer: ['Sigmoid_Sigmoid_163'](OPs: ['Sigmoid']) to ['Sigmoid']
+I Try match layer: MaxPool_MaxPool_109:out0
+I Match r_maxpool, convert ONNX layer: ['MaxPool_MaxPool_109'](OPs: ['MaxPool']) to ['pooling']
+I Try match layer: MaxPool_MaxPool_108:out0
+I Match r_maxpool, convert ONNX layer: ['MaxPool_MaxPool_108'](OPs: ['MaxPool']) to ['pooling']
+I Try match layer: Conv_Conv_133:out0
+I Match r_conv, convert ONNX layer: ['Conv_Conv_133', 'Initializer_model.13.cv3.conv.weight', 'Initializer_model.13.cv3.conv.bias'](OPs: ['Conv', 'Constant_0', 'Constant_1']) to ['convolution']
+I Try match layer: Concat_Concat_132:out0
+I Match concat_2, convert ONNX layer: ['Concat_Concat_132'](OPs: ['Concat']) to ['concat']
+I Try match layer: Conv_Conv_142:out0
+I Match r_conv, convert ONNX layer: ['Conv_Conv_142', 'Initializer_model.17.cv1.conv.weight', 'Initializer_model.17.cv1.conv.bias'](OPs: ['Conv', 'Constant_0', 'Constant_1']) to ['convolution']
+I Try match layer: Mul_Mul_131:out0
+I Match r_mul, convert ONNX layer: ['Mul_Mul_131'](OPs: ['Mul']) to ['multiply']
+I Try match layer: Add_Add_42:out0
+I Match r_add, convert ONNX layer: ['Add_Add_42'](OPs: ['Add']) to ['add']
+I Try match layer: Mul_Mul_41:out0
+I Match r_mul, convert ONNX layer: ['Mul_Mul_41'](OPs: ['Mul']) to ['multiply']
+I Try match layer: Mul_Mul_25:out0
+I Match r_mul, convert ONNX layer: ['Mul_Mul_25'](OPs: ['Mul']) to ['multiply']
+I Try match layer: Mul_Mul_106:out0
+I Match r_mul, convert ONNX layer: ['Mul_Mul_106'](OPs: ['Mul']) to ['multiply']
+I Try match layer: MaxPool_MaxPool_107:out0
+I Match r_maxpool, convert ONNX layer: ['MaxPool_MaxPool_107'](OPs: ['MaxPool']) to ['pooling']
+I Try match layer: Sigmoid_Sigmoid_105:out0
+I Match r_sigmoid, convert ONNX layer: ['Sigmoid_Sigmoid_105'](OPs: ['Sigmoid']) to ['Sigmoid']
+I Try match layer: Conv_Conv_104:out0
+I Match r_conv, convert ONNX layer: ['Conv_Conv_104', 'Initializer_model.9.cv1.conv.weight', 'Initializer_model.9.cv1.conv.bias'](OPs: ['Conv', 'Constant_0', 'Constant_1']) to ['convolution']
+I Try match layer: Mul_Mul_128:out0
+I Match r_mul, convert ONNX layer: ['Mul_Mul_128'](OPs: ['Mul']) to ['multiply']
+I Try match layer: Conv_Conv_129:out0
+I Match r_conv, convert ONNX layer: ['Conv_Conv_129', 'Initializer_model.13.cv2.conv.weight', 'Initializer_model.13.cv2.conv.bias'](OPs: ['Conv', 'Constant_0', 'Constant_1']) to ['convolution']
+I Try match layer: Sigmoid_Sigmoid_130:out0
+I Match r_sigmoid, convert ONNX layer: ['Sigmoid_Sigmoid_130'](OPs: ['Sigmoid']) to ['Sigmoid']
+I Try match layer: Add_Add_35:out0
+I Match r_add, convert ONNX layer: ['Add_Add_35'](OPs: ['Add']) to ['add']
+I Try match layer: Conv_Conv_39:out0
+I Match r_conv, convert ONNX layer: ['Conv_Conv_39', 'Initializer_model.4.m.1.cv2.conv.weight', 'Initializer_model.4.m.1.cv2.conv.bias'](OPs: ['Conv', 'Constant_0', 'Constant_1']) to ['convolution']
+I Try match layer: Sigmoid_Sigmoid_40:out0
+I Match r_sigmoid, convert ONNX layer: ['Sigmoid_Sigmoid_40'](OPs: ['Sigmoid']) to ['Sigmoid']
+I Try match layer: Conv_Conv_23:out0
+I Match r_conv, convert ONNX layer: ['Conv_Conv_23', 'Initializer_model.3.conv.weight', 'Initializer_model.3.conv.bias'](OPs: ['Conv', 'Constant_0', 'Constant_1']) to ['convolution']
+I Try match layer: Sigmoid_Sigmoid_24:out0
+I Match r_sigmoid, convert ONNX layer: ['Sigmoid_Sigmoid_24'](OPs: ['Sigmoid']) to ['Sigmoid']
+I Try match layer: Mul_Mul_22:out0
+I Match r_mul, convert ONNX layer: ['Mul_Mul_22'](OPs: ['Mul']) to ['multiply']
+I Try match layer: Mul_Mul_103:out0
+I Match r_mul, convert ONNX layer: ['Mul_Mul_103'](OPs: ['Mul']) to ['multiply']
+I Try match layer: Conv_Conv_126:out0
+I Match r_conv, convert ONNX layer: ['Conv_Conv_126', 'Initializer_model.13.m.0.cv2.conv.weight', 'Initializer_model.13.m.0.cv2.conv.bias'](OPs: ['Conv', 'Constant_0', 'Constant_1']) to ['convolution']
+I Try match layer: Sigmoid_Sigmoid_127:out0
+I Match r_sigmoid, convert ONNX layer: ['Sigmoid_Sigmoid_127'](OPs: ['Sigmoid']) to ['Sigmoid']
+I Try match layer: Concat_Concat_119:out0
+I Match concat_2, convert ONNX layer: ['Concat_Concat_119'](OPs: ['Concat']) to ['concat']
+I Try match layer: Mul_Mul_83:out0
+I Match r_mul, convert ONNX layer: ['Mul_Mul_83'](OPs: ['Mul']) to ['multiply']
+I Try match layer: Mul_Mul_28:out0
+I Match r_mul, convert ONNX layer: ['Mul_Mul_28'](OPs: ['Mul']) to ['multiply']
+I Try match layer: Mul_Mul_34:out0
+I Match r_mul, convert ONNX layer: ['Mul_Mul_34'](OPs: ['Mul']) to ['multiply']
+I Try match layer: Mul_Mul_38:out0
+I Match r_mul, convert ONNX layer: ['Mul_Mul_38'](OPs: ['Mul']) to ['multiply']
+I Try match layer: Sigmoid_Sigmoid_37:out0
+I Match r_sigmoid, convert ONNX layer: ['Sigmoid_Sigmoid_37'](OPs: ['Sigmoid']) to ['Sigmoid']
+I Try match layer: Conv_Conv_20:out0
+I Match r_conv, convert ONNX layer: ['Conv_Conv_20', 'Initializer_model.2.cv3.conv.weight', 'Initializer_model.2.cv3.conv.bias'](OPs: ['Conv', 'Constant_0', 'Constant_1']) to ['convolution']
+I Try match layer: Sigmoid_Sigmoid_21:out0
+I Match r_sigmoid, convert ONNX layer: ['Sigmoid_Sigmoid_21'](OPs: ['Sigmoid']) to ['Sigmoid']
+I Try match layer: Conv_Conv_101:out0
+I Match r_conv, convert ONNX layer: ['Conv_Conv_101', 'Initializer_model.8.cv3.conv.weight', 'Initializer_model.8.cv3.conv.bias'](OPs: ['Conv', 'Constant_0', 'Constant_1']) to ['convolution']
+I Try match layer: Sigmoid_Sigmoid_102:out0
+I Match r_sigmoid, convert ONNX layer: ['Sigmoid_Sigmoid_102'](OPs: ['Sigmoid']) to ['Sigmoid']
+I Try match layer: Mul_Mul_125:out0
+I Match r_mul, convert ONNX layer: ['Mul_Mul_125'](OPs: ['Mul']) to ['multiply']
+I Try match layer: Sigmoid_Sigmoid_124:out0
+I Match r_sigmoid, convert ONNX layer: ['Sigmoid_Sigmoid_124'](OPs: ['Sigmoid']) to ['Sigmoid']
+I Try match layer: Resize_Resize_118:out0
+I Match r_resize_size, convert ONNX layer: ['Resize_Resize_118', 'Constant_Constant_117', 'Initializer_511'](OPs: ['Resize']) to ['image_resize']
+I Try match layer: Conv_Conv_81:out0
+I Match r_conv, convert ONNX layer: ['Conv_Conv_81', 'Initializer_model.6.cv3.conv.weight', 'Initializer_model.6.cv3.conv.bias'](OPs: ['Conv', 'Constant_0', 'Constant_1']) to ['convolution']
+I Try match layer: Sigmoid_Sigmoid_82:out0
+I Match r_sigmoid, convert ONNX layer: ['Sigmoid_Sigmoid_82'](OPs: ['Sigmoid']) to ['Sigmoid']
+I Try match layer: Conv_Conv_26:out0
+I Match r_conv, convert ONNX layer: ['Conv_Conv_26', 'Initializer_model.4.cv1.conv.weight', 'Initializer_model.4.cv1.conv.bias'](OPs: ['Conv', 'Constant_0', 'Constant_1']) to ['convolution']
+I Try match layer: Sigmoid_Sigmoid_27:out0
+I Match r_sigmoid, convert ONNX layer: ['Sigmoid_Sigmoid_27'](OPs: ['Sigmoid']) to ['Sigmoid']
+I Try match layer: Conv_Conv_32:out0
+I Match r_conv, convert ONNX layer: ['Conv_Conv_32', 'Initializer_model.4.m.0.cv2.conv.weight', 'Initializer_model.4.m.0.cv2.conv.bias'](OPs: ['Conv', 'Constant_0', 'Constant_1']) to ['convolution']
+I Try match layer: Sigmoid_Sigmoid_33:out0
+I Match r_sigmoid, convert ONNX layer: ['Sigmoid_Sigmoid_33'](OPs: ['Sigmoid']) to ['Sigmoid']
+I Try match layer: Conv_Conv_36:out0
+I Match r_conv, convert ONNX layer: ['Conv_Conv_36', 'Initializer_model.4.m.1.cv1.conv.weight', 'Initializer_model.4.m.1.cv1.conv.bias'](OPs: ['Conv', 'Constant_0', 'Constant_1']) to ['convolution']
+I Try match layer: Mul_Mul_31:out0
+I Match r_mul, convert ONNX layer: ['Mul_Mul_31'](OPs: ['Mul']) to ['multiply']
+I Try match layer: Concat_Concat_19:out0
+I Match concat_2, convert ONNX layer: ['Concat_Concat_19'](OPs: ['Concat']) to ['concat']
+I Try match layer: Mul_Mul_18:out0
+I Match r_mul, convert ONNX layer: ['Mul_Mul_18'](OPs: ['Mul']) to ['multiply']
+I Try match layer: Concat_Concat_100:out0
+I Match concat_2, convert ONNX layer: ['Concat_Concat_100'](OPs: ['Concat']) to ['concat']
+I Try match layer: Mul_Mul_99:out0
+I Match r_mul, convert ONNX layer: ['Mul_Mul_99'](OPs: ['Mul']) to ['multiply']
+I Try match layer: Conv_Conv_123:out0
+I Match r_conv, convert ONNX layer: ['Conv_Conv_123', 'Initializer_model.13.m.0.cv1.conv.weight', 'Initializer_model.13.m.0.cv1.conv.bias'](OPs: ['Conv', 'Constant_0', 'Constant_1']) to ['convolution']
+I Try match layer: Mul_Mul_122:out0
+I Match r_mul, convert ONNX layer: ['Mul_Mul_122'](OPs: ['Mul']) to ['multiply']
+I Try match layer: Sigmoid_Sigmoid_121:out0
+I Match r_sigmoid, convert ONNX layer: ['Sigmoid_Sigmoid_121'](OPs: ['Sigmoid']) to ['Sigmoid']
+I Try match layer: Concat_Concat_80:out0
+I Match concat_2, convert ONNX layer: ['Concat_Concat_80'](OPs: ['Concat']) to ['concat']
+I Try match layer: Mul_Mul_79:out0
+I Match r_mul, convert ONNX layer: ['Mul_Mul_79'](OPs: ['Mul']) to ['multiply']
+I Try match layer: Sigmoid_Sigmoid_78:out0
+I Match r_sigmoid, convert ONNX layer: ['Sigmoid_Sigmoid_78'](OPs: ['Sigmoid']) to ['Sigmoid']
+I Try match layer: Conv_Conv_77:out0
+I Match r_conv, convert ONNX layer: ['Conv_Conv_77', 'Initializer_model.6.cv2.conv.weight', 'Initializer_model.6.cv2.conv.bias'](OPs: ['Conv', 'Constant_0', 'Constant_1']) to ['convolution']
+I Try match layer: Conv_Conv_29:out0
+I Match r_conv, convert ONNX layer: ['Conv_Conv_29', 'Initializer_model.4.m.0.cv1.conv.weight', 'Initializer_model.4.m.0.cv1.conv.bias'](OPs: ['Conv', 'Constant_0', 'Constant_1']) to ['convolution']
+I Try match layer: Sigmoid_Sigmoid_30:out0
+I Match r_sigmoid, convert ONNX layer: ['Sigmoid_Sigmoid_30'](OPs: ['Sigmoid']) to ['Sigmoid']
+I Try match layer: Add_Add_15:out0
+I Match r_add, convert ONNX layer: ['Add_Add_15'](OPs: ['Add']) to ['add']
+I Try match layer: Conv_Conv_16:out0
+I Match r_conv, convert ONNX layer: ['Conv_Conv_16', 'Initializer_model.2.cv2.conv.weight', 'Initializer_model.2.cv2.conv.bias'](OPs: ['Conv', 'Constant_0', 'Constant_1']) to ['convolution']
+I Try match layer: Sigmoid_Sigmoid_17:out0
+I Match r_sigmoid, convert ONNX layer: ['Sigmoid_Sigmoid_17'](OPs: ['Sigmoid']) to ['Sigmoid']
+I Try match layer: Add_Add_96:out0
+I Match r_add, convert ONNX layer: ['Add_Add_96'](OPs: ['Add']) to ['add']
+I Try match layer: Conv_Conv_97:out0
+I Match r_conv, convert ONNX layer: ['Conv_Conv_97', 'Initializer_model.8.cv2.conv.weight', 'Initializer_model.8.cv2.conv.bias'](OPs: ['Conv', 'Constant_0', 'Constant_1']) to ['convolution']
+I Try match layer: Sigmoid_Sigmoid_98:out0
+I Match r_sigmoid, convert ONNX layer: ['Sigmoid_Sigmoid_98'](OPs: ['Sigmoid']) to ['Sigmoid']
+I Try match layer: Conv_Conv_120:out0
+I Match r_conv, convert ONNX layer: ['Conv_Conv_120', 'Initializer_model.13.cv1.conv.weight', 'Initializer_model.13.cv1.conv.bias'](OPs: ['Conv', 'Constant_0', 'Constant_1']) to ['convolution']
+I Try match layer: Mul_Mul_86:out0
+I Match r_mul, convert ONNX layer: ['Mul_Mul_86'](OPs: ['Mul']) to ['multiply']
+I Try match layer: Add_Add_76:out0
+I Match r_add, convert ONNX layer: ['Add_Add_76'](OPs: ['Add']) to ['add']
+I Try match layer: Mul_Mul_75:out0
+I Match r_mul, convert ONNX layer: ['Mul_Mul_75'](OPs: ['Mul']) to ['multiply']
+I Try match layer: Mul_Mul_52:out0
+I Match r_mul, convert ONNX layer: ['Mul_Mul_52'](OPs: ['Mul']) to ['multiply']
+I Try match layer: Sigmoid_Sigmoid_51:out0
+I Match r_sigmoid, convert ONNX layer: ['Sigmoid_Sigmoid_51'](OPs: ['Sigmoid']) to ['Sigmoid']
+I Try match layer: Conv_Conv_50:out0
+I Match r_conv, convert ONNX layer: ['Conv_Conv_50', 'Initializer_model.5.conv.weight', 'Initializer_model.5.conv.bias'](OPs: ['Conv', 'Constant_0', 'Constant_1']) to ['convolution']
+I Try match layer: Mul_Mul_8:out0
+I Match r_mul, convert ONNX layer: ['Mul_Mul_8'](OPs: ['Mul']) to ['multiply']
+I Try match layer: Mul_Mul_14:out0
+I Match r_mul, convert ONNX layer: ['Mul_Mul_14'](OPs: ['Mul']) to ['multiply']
+I Try match layer: Mul_Mul_5:out0
+I Match r_mul, convert ONNX layer: ['Mul_Mul_5'](OPs: ['Mul']) to ['multiply']
+I Try match layer: Sigmoid_Sigmoid_4:out0
+I Match r_sigmoid, convert ONNX layer: ['Sigmoid_Sigmoid_4'](OPs: ['Sigmoid']) to ['Sigmoid']
+I Try match layer: Mul_Mul_89:out0
+I Match r_mul, convert ONNX layer: ['Mul_Mul_89'](OPs: ['Mul']) to ['multiply']
+I Try match layer: Mul_Mul_95:out0
+I Match r_mul, convert ONNX layer: ['Mul_Mul_95'](OPs: ['Mul']) to ['multiply']
+I Try match layer: Conv_Conv_84:out0
+I Match r_conv, convert ONNX layer: ['Conv_Conv_84', 'Initializer_model.7.conv.weight', 'Initializer_model.7.conv.bias'](OPs: ['Conv', 'Constant_0', 'Constant_1']) to ['convolution']
+I Try match layer: Sigmoid_Sigmoid_85:out0
+I Match r_sigmoid, convert ONNX layer: ['Sigmoid_Sigmoid_85'](OPs: ['Sigmoid']) to ['Sigmoid']
+I Try match layer: Add_Add_69:out0
+I Match r_add, convert ONNX layer: ['Add_Add_69'](OPs: ['Add']) to ['add']
+I Try match layer: Conv_Conv_73:out0
+I Match r_conv, convert ONNX layer: ['Conv_Conv_73', 'Initializer_model.6.m.2.cv2.conv.weight', 'Initializer_model.6.m.2.cv2.conv.bias'](OPs: ['Conv', 'Constant_0', 'Constant_1']) to ['convolution']
+I Try match layer: Sigmoid_Sigmoid_74:out0
+I Match r_sigmoid, convert ONNX layer: ['Sigmoid_Sigmoid_74'](OPs: ['Sigmoid']) to ['Sigmoid']
+I Try match layer: Mul_Mul_72:out0
+I Match r_mul, convert ONNX layer: ['Mul_Mul_72'](OPs: ['Mul']) to ['multiply']
+I Try match layer: Sigmoid_Sigmoid_71:out0
+I Match r_sigmoid, convert ONNX layer: ['Sigmoid_Sigmoid_71'](OPs: ['Sigmoid']) to ['Sigmoid']
+I Try match layer: Conv_Conv_6:out0
+I Match r_conv, convert ONNX layer: ['Conv_Conv_6', 'Initializer_model.2.cv1.conv.weight', 'Initializer_model.2.cv1.conv.bias'](OPs: ['Conv', 'Constant_0', 'Constant_1']) to ['convolution']
+I Try match layer: Sigmoid_Sigmoid_7:out0
+I Match r_sigmoid, convert ONNX layer: ['Sigmoid_Sigmoid_7'](OPs: ['Sigmoid']) to ['Sigmoid']
+I Try match layer: Conv_Conv_12:out0
+I Match r_conv, convert ONNX layer: ['Conv_Conv_12', 'Initializer_model.2.m.0.cv2.conv.weight', 'Initializer_model.2.m.0.cv2.conv.bias'](OPs: ['Conv', 'Constant_0', 'Constant_1']) to ['convolution']
+I Try match layer: Sigmoid_Sigmoid_13:out0
+I Match r_sigmoid, convert ONNX layer: ['Sigmoid_Sigmoid_13'](OPs: ['Sigmoid']) to ['Sigmoid']
+I Try match layer: Conv_Conv_3:out0
+I Match r_conv, convert ONNX layer: ['Conv_Conv_3', 'Initializer_model.1.conv.weight', 'Initializer_model.1.conv.bias'](OPs: ['Conv', 'Constant_0', 'Constant_1']) to ['convolution']
+I Try match layer: Mul_Mul_2:out0
+I Match r_mul, convert ONNX layer: ['Mul_Mul_2'](OPs: ['Mul']) to ['multiply']
+I Try match layer: Conv_Conv_87:out0
+I Match r_conv, convert ONNX layer: ['Conv_Conv_87', 'Initializer_model.8.cv1.conv.weight', 'Initializer_model.8.cv1.conv.bias'](OPs: ['Conv', 'Constant_0', 'Constant_1']) to ['convolution']
+I Try match layer: Sigmoid_Sigmoid_88:out0
+I Match r_sigmoid, convert ONNX layer: ['Sigmoid_Sigmoid_88'](OPs: ['Sigmoid']) to ['Sigmoid']
+I Try match layer: Conv_Conv_93:out0
+I Match r_conv, convert ONNX layer: ['Conv_Conv_93', 'Initializer_model.8.m.0.cv2.conv.weight', 'Initializer_model.8.m.0.cv2.conv.bias'](OPs: ['Conv', 'Constant_0', 'Constant_1']) to ['convolution']
+I Try match layer: Sigmoid_Sigmoid_94:out0
+I Match r_sigmoid, convert ONNX layer: ['Sigmoid_Sigmoid_94'](OPs: ['Sigmoid']) to ['Sigmoid']
+I Try match layer: Mul_Mul_92:out0
+I Match r_mul, convert ONNX layer: ['Mul_Mul_92'](OPs: ['Mul']) to ['multiply']
+I Try match layer: Sigmoid_Sigmoid_91:out0
+I Match r_sigmoid, convert ONNX layer: ['Sigmoid_Sigmoid_91'](OPs: ['Sigmoid']) to ['Sigmoid']
+I Try match layer: Add_Add_62:out0
+I Match r_add, convert ONNX layer: ['Add_Add_62'](OPs: ['Add']) to ['add']
+I Try match layer: Mul_Mul_68:out0
+I Match r_mul, convert ONNX layer: ['Mul_Mul_68'](OPs: ['Mul']) to ['multiply']
+I Try match layer: Conv_Conv_70:out0
+I Match r_conv, convert ONNX layer: ['Conv_Conv_70', 'Initializer_model.6.m.2.cv1.conv.weight', 'Initializer_model.6.m.2.cv1.conv.bias'](OPs: ['Conv', 'Constant_0', 'Constant_1']) to ['convolution']
+I Try match layer: Sigmoid_Sigmoid_67:out0
+I Match r_sigmoid, convert ONNX layer: ['Sigmoid_Sigmoid_67'](OPs: ['Sigmoid']) to ['Sigmoid']
+I Try match layer: Conv_Conv_66:out0
+I Match r_conv, convert ONNX layer: ['Conv_Conv_66', 'Initializer_model.6.m.1.cv2.conv.weight', 'Initializer_model.6.m.1.cv2.conv.bias'](OPs: ['Conv', 'Constant_0', 'Constant_1']) to ['convolution']
+I Try match layer: Mul_Mul_65:out0
+I Match r_mul, convert ONNX layer: ['Mul_Mul_65'](OPs: ['Mul']) to ['multiply']
+I Try match layer: Mul_Mul_11:out0
+I Match r_mul, convert ONNX layer: ['Mul_Mul_11'](OPs: ['Mul']) to ['multiply']
+I Try match layer: Sigmoid_Sigmoid_10:out0
+I Match r_sigmoid, convert ONNX layer: ['Sigmoid_Sigmoid_10'](OPs: ['Sigmoid']) to ['Sigmoid']
+I Try match layer: Conv_Conv_0:out0
+I Match r_conv, convert ONNX layer: ['Conv_Conv_0', 'Initializer_model.0.conv.weight', 'Initializer_model.0.conv.bias'](OPs: ['Conv', 'Constant_0', 'Constant_1']) to ['convolution']
+I Try match layer: Sigmoid_Sigmoid_1:out0
+I Match r_sigmoid, convert ONNX layer: ['Sigmoid_Sigmoid_1'](OPs: ['Sigmoid']) to ['Sigmoid']
+I Try match layer: Conv_Conv_9:out0
+I Match r_conv, convert ONNX layer: ['Conv_Conv_9', 'Initializer_model.2.m.0.cv1.conv.weight', 'Initializer_model.2.m.0.cv1.conv.bias'](OPs: ['Conv', 'Constant_0', 'Constant_1']) to ['convolution']
+I Try match layer: Sigmoid_Sigmoid_64:out0
+I Match r_sigmoid, convert ONNX layer: ['Sigmoid_Sigmoid_64'](OPs: ['Sigmoid']) to ['Sigmoid']
+I Try match layer: Conv_Conv_90:out0
+I Match r_conv, convert ONNX layer: ['Conv_Conv_90', 'Initializer_model.8.m.0.cv1.conv.weight', 'Initializer_model.8.m.0.cv1.conv.bias'](OPs: ['Conv', 'Constant_0', 'Constant_1']) to ['convolution']
+I Try match layer: Conv_Conv_63:out0
+I Match r_conv, convert ONNX layer: ['Conv_Conv_63', 'Initializer_model.6.m.1.cv1.conv.weight', 'Initializer_model.6.m.1.cv1.conv.bias'](OPs: ['Conv', 'Constant_0', 'Constant_1']) to ['convolution']
+I Try match layer: Mul_Mul_55:out0
+I Match r_mul, convert ONNX layer: ['Mul_Mul_55'](OPs: ['Mul']) to ['multiply']
+I Try match layer: Mul_Mul_61:out0
+I Match r_mul, convert ONNX layer: ['Mul_Mul_61'](OPs: ['Mul']) to ['multiply']
+I Try match layer: Sigmoid_Sigmoid_60:out0
+I Match r_sigmoid, convert ONNX layer: ['Sigmoid_Sigmoid_60'](OPs: ['Sigmoid']) to ['Sigmoid']
+I Try match layer: Conv_Conv_59:out0
+I Match r_conv, convert ONNX layer: ['Conv_Conv_59', 'Initializer_model.6.m.0.cv2.conv.weight', 'Initializer_model.6.m.0.cv2.conv.bias'](OPs: ['Conv', 'Constant_0', 'Constant_1']) to ['convolution']
+I Try match layer: Mul_Mul_58:out0
+I Match r_mul, convert ONNX layer: ['Mul_Mul_58'](OPs: ['Mul']) to ['multiply']
+I Try match layer: Conv_Conv_53:out0
+I Match r_conv, convert ONNX layer: ['Conv_Conv_53', 'Initializer_model.6.cv1.conv.weight', 'Initializer_model.6.cv1.conv.bias'](OPs: ['Conv', 'Constant_0', 'Constant_1']) to ['convolution']
+I Try match layer: Sigmoid_Sigmoid_54:out0
+I Match r_sigmoid, convert ONNX layer: ['Sigmoid_Sigmoid_54'](OPs: ['Sigmoid']) to ['Sigmoid']
+I Try match layer: Sigmoid_Sigmoid_57:out0
+I Match r_sigmoid, convert ONNX layer: ['Sigmoid_Sigmoid_57'](OPs: ['Sigmoid']) to ['Sigmoid']
+I Try match layer: Conv_Conv_56:out0
+I Match r_conv, convert ONNX layer: ['Conv_Conv_56', 'Initializer_model.6.m.0.cv1.conv.weight', 'Initializer_model.6.m.0.cv1.conv.bias'](OPs: ['Conv', 'Constant_0', 'Constant_1']) to ['convolution']
+I build input layer images:out0
+D connect Mul_Mul_197_6 0  ~ Conv_Conv_296_3 0
+D connect Mul_Mul_177_7 0  ~ Conv_Conv_247_4 0
+D connect Mul_Mul_157_8 0  ~ Conv_Conv_198_5 0
+D connect Conv_Conv_195_9 0  ~ Mul_Mul_197_6 0
+D connect Sigmoid_Sigmoid_196_10 0  ~ Mul_Mul_197_6 1
+D connect Conv_Conv_175_11 0  ~ Mul_Mul_177_7 0
+D connect Sigmoid_Sigmoid_176_12 0  ~ Mul_Mul_177_7 1
+D connect Conv_Conv_155_13 0  ~ Mul_Mul_157_8 0
+D connect Sigmoid_Sigmoid_156_14 0  ~ Mul_Mul_157_8 1
+D connect Concat_Concat_194_15 0  ~ Conv_Conv_195_9 0
+D connect Conv_Conv_195_9 0  ~ Sigmoid_Sigmoid_196_10 0
+D connect Concat_Concat_174_17 0  ~ Conv_Conv_175_11 0
+D connect Conv_Conv_175_11 0  ~ Sigmoid_Sigmoid_176_12 0
+D connect Concat_Concat_154_19 0  ~ Conv_Conv_155_13 0
+D connect Conv_Conv_155_13 0  ~ Sigmoid_Sigmoid_156_14 0
+D connect Mul_Mul_190_21 0  ~ Concat_Concat_194_15 0
+D connect Mul_Mul_193_16 0  ~ Concat_Concat_194_15 1
+D connect Conv_Conv_191_22 0  ~ Mul_Mul_193_16 0
+D connect Sigmoid_Sigmoid_192_23 0  ~ Mul_Mul_193_16 1
+D connect Mul_Mul_170_24 0  ~ Concat_Concat_174_17 0
+D connect Mul_Mul_173_18 0  ~ Concat_Concat_174_17 1
+D connect Conv_Conv_171_25 0  ~ Mul_Mul_173_18 0
+D connect Sigmoid_Sigmoid_172_26 0  ~ Mul_Mul_173_18 1
+D connect Mul_Mul_150_27 0  ~ Concat_Concat_154_19 0
+D connect Mul_Mul_153_20 0  ~ Concat_Concat_154_19 1
+D connect Conv_Conv_151_28 0  ~ Mul_Mul_153_20 0
+D connect Sigmoid_Sigmoid_152_29 0  ~ Mul_Mul_153_20 1
+D connect Conv_Conv_188_30 0  ~ Mul_Mul_190_21 0
+D connect Sigmoid_Sigmoid_189_31 0  ~ Mul_Mul_190_21 1
+D connect Concat_Concat_181_32 0  ~ Conv_Conv_191_22 0
+D connect Conv_Conv_191_22 0  ~ Sigmoid_Sigmoid_192_23 0
+D connect Conv_Conv_168_34 0  ~ Mul_Mul_170_24 0
+D connect Sigmoid_Sigmoid_169_35 0  ~ Mul_Mul_170_24 1
+D connect Concat_Concat_161_36 0  ~ Conv_Conv_171_25 0
+D connect Conv_Conv_171_25 0  ~ Sigmoid_Sigmoid_172_26 0
+D connect Conv_Conv_148_38 0  ~ Mul_Mul_150_27 0
+D connect Sigmoid_Sigmoid_149_39 0  ~ Mul_Mul_150_27 1
+D connect Concat_Concat_141_40 0  ~ Conv_Conv_151_28 0
+D connect Conv_Conv_151_28 0  ~ Sigmoid_Sigmoid_152_29 0
+D connect Mul_Mul_187_42 0  ~ Conv_Conv_188_30 0
+D connect Conv_Conv_188_30 0  ~ Sigmoid_Sigmoid_189_31 0
+D connect Mul_Mul_180_44 0  ~ Concat_Concat_181_32 0
+D connect Mul_Mul_116_33 0  ~ Concat_Concat_181_32 1
+D connect Conv_Conv_114_45 0  ~ Mul_Mul_116_33 0
+D connect Sigmoid_Sigmoid_115_46 0  ~ Mul_Mul_116_33 1
+D connect Mul_Mul_167_47 0  ~ Conv_Conv_168_34 0
+D connect Conv_Conv_168_34 0  ~ Sigmoid_Sigmoid_169_35 0
+D connect Mul_Mul_160_49 0  ~ Concat_Concat_161_36 0
+D connect Mul_Mul_138_37 0  ~ Concat_Concat_161_36 1
+D connect Conv_Conv_136_50 0  ~ Mul_Mul_138_37 0
+D connect Sigmoid_Sigmoid_137_51 0  ~ Mul_Mul_138_37 1
+D connect Mul_Mul_147_52 0  ~ Conv_Conv_148_38 0
+D connect Conv_Conv_148_38 0  ~ Sigmoid_Sigmoid_149_39 0
+D connect Resize_Resize_140_54 0  ~ Concat_Concat_141_40 0
+D connect Mul_Mul_49_41 0  ~ Concat_Concat_141_40 1
+D connect Conv_Conv_47_55 0  ~ Mul_Mul_49_41 0
+D connect Sigmoid_Sigmoid_48_56 0  ~ Mul_Mul_49_41 1
+D connect Conv_Conv_185_57 0  ~ Mul_Mul_187_42 0
+D connect Sigmoid_Sigmoid_186_43 0  ~ Mul_Mul_187_42 1
+D connect Conv_Conv_185_57 0  ~ Sigmoid_Sigmoid_186_43 0
+D connect Conv_Conv_178_59 0  ~ Mul_Mul_180_44 0
+D connect Sigmoid_Sigmoid_179_60 0  ~ Mul_Mul_180_44 1
+D connect Mul_Mul_113_61 0  ~ Conv_Conv_114_45 0
+D connect Conv_Conv_114_45 0  ~ Sigmoid_Sigmoid_115_46 0
+D connect Conv_Conv_165_63 0  ~ Mul_Mul_167_47 0
+D connect Sigmoid_Sigmoid_166_48 0  ~ Mul_Mul_167_47 1
+D connect Conv_Conv_165_63 0  ~ Sigmoid_Sigmoid_166_48 0
+D connect Conv_Conv_158_65 0  ~ Mul_Mul_160_49 0
+D connect Sigmoid_Sigmoid_159_66 0  ~ Mul_Mul_160_49 1
+D connect Mul_Mul_135_67 0  ~ Conv_Conv_136_50 0
+D connect Conv_Conv_136_50 0  ~ Sigmoid_Sigmoid_137_51 0
+D connect Conv_Conv_145_69 0  ~ Mul_Mul_147_52 0
+D connect Sigmoid_Sigmoid_146_53 0  ~ Mul_Mul_147_52 1
+D connect Conv_Conv_145_69 0  ~ Sigmoid_Sigmoid_146_53 0
+D connect Mul_Mul_138_37 0  ~ Resize_Resize_140_54 0
+D connect Concat_Concat_46_72 0  ~ Conv_Conv_47_55 0
+D connect Conv_Conv_47_55 0  ~ Sigmoid_Sigmoid_48_56 0
+D connect Mul_Mul_184_58 0  ~ Conv_Conv_185_57 0
+D connect Conv_Conv_182_74 0  ~ Mul_Mul_184_58 0
+D connect Sigmoid_Sigmoid_183_75 0  ~ Mul_Mul_184_58 1
+D connect Mul_Mul_177_7 0  ~ Conv_Conv_178_59 0
+D connect Conv_Conv_178_59 0  ~ Sigmoid_Sigmoid_179_60 0
+D connect Conv_Conv_111_78 0  ~ Mul_Mul_113_61 0
+D connect Sigmoid_Sigmoid_112_62 0  ~ Mul_Mul_113_61 1
+D connect Conv_Conv_111_78 0  ~ Sigmoid_Sigmoid_112_62 0
+D connect Mul_Mul_164_64 0  ~ Conv_Conv_165_63 0
+D connect Conv_Conv_162_80 0  ~ Mul_Mul_164_64 0
+D connect Sigmoid_Sigmoid_163_81 0  ~ Mul_Mul_164_64 1
+D connect Mul_Mul_157_8 0  ~ Conv_Conv_158_65 0
+D connect Conv_Conv_158_65 0  ~ Sigmoid_Sigmoid_159_66 0
+D connect Conv_Conv_133_84 0  ~ Mul_Mul_135_67 0
+D connect Sigmoid_Sigmoid_134_68 0  ~ Mul_Mul_135_67 1
+D connect Conv_Conv_133_84 0  ~ Sigmoid_Sigmoid_134_68 0
+D connect Mul_Mul_144_70 0  ~ Conv_Conv_145_69 0
+D connect Conv_Conv_142_86 0  ~ Mul_Mul_144_70 0
+D connect Sigmoid_Sigmoid_143_71 0  ~ Mul_Mul_144_70 1
+D connect Conv_Conv_142_86 0  ~ Sigmoid_Sigmoid_143_71 0
+D connect Add_Add_42_88 0  ~ Concat_Concat_46_72 0
+D connect Mul_Mul_45_73 0  ~ Concat_Concat_46_72 1
+D connect Conv_Conv_43_77 0  ~ Mul_Mul_45_73 0
+D connect Sigmoid_Sigmoid_44_76 0  ~ Mul_Mul_45_73 1
+D connect Concat_Concat_181_32 0  ~ Conv_Conv_182_74 0
+D connect Conv_Conv_182_74 0  ~ Sigmoid_Sigmoid_183_75 0
+D connect Conv_Conv_43_77 0  ~ Sigmoid_Sigmoid_44_76 0
+D connect Mul_Mul_25_90 0  ~ Conv_Conv_43_77 0
+D connect Concat_Concat_110_79 0  ~ Conv_Conv_111_78 0
+D connect Mul_Mul_106_91 0  ~ Concat_Concat_110_79 0
+D connect MaxPool_MaxPool_107_92 0  ~ Concat_Concat_110_79 1
+D connect MaxPool_MaxPool_108_83 0  ~ Concat_Concat_110_79 2
+D connect MaxPool_MaxPool_109_82 0  ~ Concat_Concat_110_79 3
+D connect Concat_Concat_161_36 0  ~ Conv_Conv_162_80 0
+D connect Conv_Conv_162_80 0  ~ Sigmoid_Sigmoid_163_81 0
+D connect MaxPool_MaxPool_108_83 0  ~ MaxPool_MaxPool_109_82 0
+D connect MaxPool_MaxPool_107_92 0  ~ MaxPool_MaxPool_108_83 0
+D connect Concat_Concat_132_85 0  ~ Conv_Conv_133_84 0
+D connect Mul_Mul_128_95 0  ~ Concat_Concat_132_85 0
+D connect Mul_Mul_131_87 0  ~ Concat_Concat_132_85 1
+D connect Concat_Concat_141_40 0  ~ Conv_Conv_142_86 0
+D connect Conv_Conv_129_96 0  ~ Mul_Mul_131_87 0
+D connect Sigmoid_Sigmoid_130_97 0  ~ Mul_Mul_131_87 1
+D connect Add_Add_35_98 0  ~ Add_Add_42_88 0
+D connect Mul_Mul_41_89 0  ~ Add_Add_42_88 1
+D connect Conv_Conv_39_99 0  ~ Mul_Mul_41_89 0
+D connect Sigmoid_Sigmoid_40_100 0  ~ Mul_Mul_41_89 1
+D connect Conv_Conv_23_101 0  ~ Mul_Mul_25_90 0
+D connect Sigmoid_Sigmoid_24_102 0  ~ Mul_Mul_25_90 1
+D connect Conv_Conv_104_94 0  ~ Mul_Mul_106_91 0
+D connect Sigmoid_Sigmoid_105_93 0  ~ Mul_Mul_106_91 1
+D connect Mul_Mul_106_91 0  ~ MaxPool_MaxPool_107_92 0
+D connect Conv_Conv_104_94 0  ~ Sigmoid_Sigmoid_105_93 0
+D connect Mul_Mul_103_104 0  ~ Conv_Conv_104_94 0
+D connect Conv_Conv_126_105 0  ~ Mul_Mul_128_95 0
+D connect Sigmoid_Sigmoid_127_106 0  ~ Mul_Mul_128_95 1
+D connect Concat_Concat_119_107 0  ~ Conv_Conv_129_96 0
+D connect Conv_Conv_129_96 0  ~ Sigmoid_Sigmoid_130_97 0
+D connect Mul_Mul_28_109 0  ~ Add_Add_35_98 0
+D connect Mul_Mul_34_110 0  ~ Add_Add_35_98 1
+D connect Mul_Mul_38_111 0  ~ Conv_Conv_39_99 0
+D connect Conv_Conv_39_99 0  ~ Sigmoid_Sigmoid_40_100 0
+D connect Mul_Mul_22_103 0  ~ Conv_Conv_23_101 0
+D connect Conv_Conv_23_101 0  ~ Sigmoid_Sigmoid_24_102 0
+D connect Conv_Conv_20_113 0  ~ Mul_Mul_22_103 0
+D connect Sigmoid_Sigmoid_21_114 0  ~ Mul_Mul_22_103 1
+D connect Conv_Conv_101_115 0  ~ Mul_Mul_103_104 0
+D connect Sigmoid_Sigmoid_102_116 0  ~ Mul_Mul_103_104 1
+D connect Mul_Mul_125_117 0  ~ Conv_Conv_126_105 0
+D connect Conv_Conv_126_105 0  ~ Sigmoid_Sigmoid_127_106 0
+D connect Resize_Resize_118_119 0  ~ Concat_Concat_119_107 0
+D connect Mul_Mul_83_108 0  ~ Concat_Concat_119_107 1
+D connect Conv_Conv_81_120 0  ~ Mul_Mul_83_108 0
+D connect Sigmoid_Sigmoid_82_121 0  ~ Mul_Mul_83_108 1
+D connect Conv_Conv_26_122 0  ~ Mul_Mul_28_109 0
+D connect Sigmoid_Sigmoid_27_123 0  ~ Mul_Mul_28_109 1
+D connect Conv_Conv_32_124 0  ~ Mul_Mul_34_110 0
+D connect Sigmoid_Sigmoid_33_125 0  ~ Mul_Mul_34_110 1
+D connect Conv_Conv_36_126 0  ~ Mul_Mul_38_111 0
+D connect Sigmoid_Sigmoid_37_112 0  ~ Mul_Mul_38_111 1
+D connect Conv_Conv_36_126 0  ~ Sigmoid_Sigmoid_37_112 0
+D connect Concat_Concat_19_128 0  ~ Conv_Conv_20_113 0
+D connect Conv_Conv_20_113 0  ~ Sigmoid_Sigmoid_21_114 0
+D connect Concat_Concat_100_130 0  ~ Conv_Conv_101_115 0
+D connect Conv_Conv_101_115 0  ~ Sigmoid_Sigmoid_102_116 0
+D connect Conv_Conv_123_132 0  ~ Mul_Mul_125_117 0
+D connect Sigmoid_Sigmoid_124_118 0  ~ Mul_Mul_125_117 1
+D connect Conv_Conv_123_132 0  ~ Sigmoid_Sigmoid_124_118 0
+D connect Mul_Mul_116_33 0  ~ Resize_Resize_118_119 0
+D connect Concat_Concat_80_135 0  ~ Conv_Conv_81_120 0
+D connect Conv_Conv_81_120 0  ~ Sigmoid_Sigmoid_82_121 0
+D connect Mul_Mul_25_90 0  ~ Conv_Conv_26_122 0
+D connect Conv_Conv_26_122 0  ~ Sigmoid_Sigmoid_27_123 0
+D connect Mul_Mul_31_127 0  ~ Conv_Conv_32_124 0
+D connect Conv_Conv_32_124 0  ~ Sigmoid_Sigmoid_33_125 0
+D connect Add_Add_35_98 0  ~ Conv_Conv_36_126 0
+D connect Conv_Conv_29_139 0  ~ Mul_Mul_31_127 0
+D connect Sigmoid_Sigmoid_30_140 0  ~ Mul_Mul_31_127 1
+D connect Add_Add_15_141 0  ~ Concat_Concat_19_128 0
+D connect Mul_Mul_18_129 0  ~ Concat_Concat_19_128 1
+D connect Conv_Conv_16_142 0  ~ Mul_Mul_18_129 0
+D connect Sigmoid_Sigmoid_17_143 0  ~ Mul_Mul_18_129 1
+D connect Add_Add_96_144 0  ~ Concat_Concat_100_130 0
+D connect Mul_Mul_99_131 0  ~ Concat_Concat_100_130 1
+D connect Conv_Conv_97_145 0  ~ Mul_Mul_99_131 0
+D connect Sigmoid_Sigmoid_98_146 0  ~ Mul_Mul_99_131 1
+D connect Mul_Mul_122_133 0  ~ Conv_Conv_123_132 0
+D connect Conv_Conv_120_147 0  ~ Mul_Mul_122_133 0
+D connect Sigmoid_Sigmoid_121_134 0  ~ Mul_Mul_122_133 1
+D connect Conv_Conv_120_147 0  ~ Sigmoid_Sigmoid_121_134 0
+D connect Add_Add_76_149 0  ~ Concat_Concat_80_135 0
+D connect Mul_Mul_79_136 0  ~ Concat_Concat_80_135 1
+D connect Conv_Conv_77_138 0  ~ Mul_Mul_79_136 0
+D connect Sigmoid_Sigmoid_78_137 0  ~ Mul_Mul_79_136 1
+D connect Conv_Conv_77_138 0  ~ Sigmoid_Sigmoid_78_137 0
+D connect Mul_Mul_52_151 0  ~ Conv_Conv_77_138 0
+D connect Mul_Mul_28_109 0  ~ Conv_Conv_29_139 0
+D connect Conv_Conv_29_139 0  ~ Sigmoid_Sigmoid_30_140 0
+D connect Mul_Mul_8_154 0  ~ Add_Add_15_141 0
+D connect Mul_Mul_14_155 0  ~ Add_Add_15_141 1
+D connect Mul_Mul_5_156 0  ~ Conv_Conv_16_142 0
+D connect Conv_Conv_16_142 0  ~ Sigmoid_Sigmoid_17_143 0
+D connect Mul_Mul_89_158 0  ~ Add_Add_96_144 0
+D connect Mul_Mul_95_159 0  ~ Add_Add_96_144 1
+D connect Mul_Mul_86_148 0  ~ Conv_Conv_97_145 0
+D connect Conv_Conv_97_145 0  ~ Sigmoid_Sigmoid_98_146 0
+D connect Concat_Concat_119_107 0  ~ Conv_Conv_120_147 0
+D connect Conv_Conv_84_160 0  ~ Mul_Mul_86_148 0
+D connect Sigmoid_Sigmoid_85_161 0  ~ Mul_Mul_86_148 1
+D connect Add_Add_69_162 0  ~ Add_Add_76_149 0
+D connect Mul_Mul_75_150 0  ~ Add_Add_76_149 1
+D connect Conv_Conv_73_163 0  ~ Mul_Mul_75_150 0
+D connect Sigmoid_Sigmoid_74_164 0  ~ Mul_Mul_75_150 1
+D connect Conv_Conv_50_153 0  ~ Mul_Mul_52_151 0
+D connect Sigmoid_Sigmoid_51_152 0  ~ Mul_Mul_52_151 1
+D connect Conv_Conv_50_153 0  ~ Sigmoid_Sigmoid_51_152 0
+D connect Mul_Mul_49_41 0  ~ Conv_Conv_50_153 0
+D connect Conv_Conv_6_167 0  ~ Mul_Mul_8_154 0
+D connect Sigmoid_Sigmoid_7_168 0  ~ Mul_Mul_8_154 1
+D connect Conv_Conv_12_169 0  ~ Mul_Mul_14_155 0
+D connect Sigmoid_Sigmoid_13_170 0  ~ Mul_Mul_14_155 1
+D connect Conv_Conv_3_171 0  ~ Mul_Mul_5_156 0
+D connect Sigmoid_Sigmoid_4_157 0  ~ Mul_Mul_5_156 1
+D connect Conv_Conv_3_171 0  ~ Sigmoid_Sigmoid_4_157 0
+D connect Conv_Conv_87_173 0  ~ Mul_Mul_89_158 0
+D connect Sigmoid_Sigmoid_88_174 0  ~ Mul_Mul_89_158 1
+D connect Conv_Conv_93_175 0  ~ Mul_Mul_95_159 0
+D connect Sigmoid_Sigmoid_94_176 0  ~ Mul_Mul_95_159 1
+D connect Mul_Mul_83_108 0  ~ Conv_Conv_84_160 0
+D connect Conv_Conv_84_160 0  ~ Sigmoid_Sigmoid_85_161 0
+D connect Add_Add_62_179 0  ~ Add_Add_69_162 0
+D connect Mul_Mul_68_180 0  ~ Add_Add_69_162 1
+D connect Mul_Mul_72_165 0  ~ Conv_Conv_73_163 0
+D connect Conv_Conv_73_163 0  ~ Sigmoid_Sigmoid_74_164 0
+D connect Conv_Conv_70_181 0  ~ Mul_Mul_72_165 0
+D connect Sigmoid_Sigmoid_71_166 0  ~ Mul_Mul_72_165 1
+D connect Conv_Conv_70_181 0  ~ Sigmoid_Sigmoid_71_166 0
+D connect Mul_Mul_5_156 0  ~ Conv_Conv_6_167 0
+D connect Conv_Conv_6_167 0  ~ Sigmoid_Sigmoid_7_168 0
+D connect Mul_Mul_11_185 0  ~ Conv_Conv_12_169 0
+D connect Conv_Conv_12_169 0  ~ Sigmoid_Sigmoid_13_170 0
+D connect Mul_Mul_2_172 0  ~ Conv_Conv_3_171 0
+D connect Conv_Conv_0_187 0  ~ Mul_Mul_2_172 0
+D connect Sigmoid_Sigmoid_1_188 0  ~ Mul_Mul_2_172 1
+D connect Mul_Mul_86_148 0  ~ Conv_Conv_87_173 0
+D connect Conv_Conv_87_173 0  ~ Sigmoid_Sigmoid_88_174 0
+D connect Mul_Mul_92_177 0  ~ Conv_Conv_93_175 0
+D connect Conv_Conv_93_175 0  ~ Sigmoid_Sigmoid_94_176 0
+D connect Conv_Conv_90_191 0  ~ Mul_Mul_92_177 0
+D connect Sigmoid_Sigmoid_91_178 0  ~ Mul_Mul_92_177 1
+D connect Conv_Conv_90_191 0  ~ Sigmoid_Sigmoid_91_178 0
+D connect Mul_Mul_55_193 0  ~ Add_Add_62_179 0
+D connect Mul_Mul_61_194 0  ~ Add_Add_62_179 1
+D connect Conv_Conv_66_183 0  ~ Mul_Mul_68_180 0
+D connect Sigmoid_Sigmoid_67_182 0  ~ Mul_Mul_68_180 1
+D connect Add_Add_69_162 0  ~ Conv_Conv_70_181 0
+D connect Conv_Conv_66_183 0  ~ Sigmoid_Sigmoid_67_182 0
+D connect Mul_Mul_65_184 0  ~ Conv_Conv_66_183 0
+D connect Conv_Conv_63_192 0  ~ Mul_Mul_65_184 0
+D connect Sigmoid_Sigmoid_64_190 0  ~ Mul_Mul_65_184 1
+D connect Conv_Conv_9_189 0  ~ Mul_Mul_11_185 0
+D connect Sigmoid_Sigmoid_10_186 0  ~ Mul_Mul_11_185 1
+D connect Conv_Conv_9_189 0  ~ Sigmoid_Sigmoid_10_186 0
+D connect images_202 0  ~ Conv_Conv_0_187 0
+D connect Conv_Conv_0_187 0  ~ Sigmoid_Sigmoid_1_188 0
+D connect Mul_Mul_8_154 0  ~ Conv_Conv_9_189 0
+D connect Conv_Conv_63_192 0  ~ Sigmoid_Sigmoid_64_190 0
+D connect Mul_Mul_89_158 0  ~ Conv_Conv_90_191 0
+D connect Add_Add_62_179 0  ~ Conv_Conv_63_192 0
+D connect Conv_Conv_53_198 0  ~ Mul_Mul_55_193 0
+D connect Sigmoid_Sigmoid_54_199 0  ~ Mul_Mul_55_193 1
+D connect Conv_Conv_59_196 0  ~ Mul_Mul_61_194 0
+D connect Sigmoid_Sigmoid_60_195 0  ~ Mul_Mul_61_194 1
+D connect Conv_Conv_59_196 0  ~ Sigmoid_Sigmoid_60_195 0
+D connect Mul_Mul_58_197 0  ~ Conv_Conv_59_196 0
+D connect Conv_Conv_56_201 0  ~ Mul_Mul_58_197 0
+D connect Sigmoid_Sigmoid_57_200 0  ~ Mul_Mul_58_197 1
+D connect Mul_Mul_52_151 0  ~ Conv_Conv_53_198 0
+D connect Conv_Conv_53_198 0  ~ Sigmoid_Sigmoid_54_199 0
+D connect Conv_Conv_56_201 0  ~ Sigmoid_Sigmoid_57_200 0
+D connect Mul_Mul_55_193 0  ~ Conv_Conv_56_201 0
+D connect Conv_Conv_198_5 0  ~ attach_Conv_Conv_198/out0_0 0
+D connect Conv_Conv_247_4 0  ~ attach_Conv_Conv_247/out0_1 0
+D connect Conv_Conv_296_3 0  ~ attach_Conv_Conv_296/out0_2 0
+D Process images_202 ...
+D RKNN output shape(input): (1 640 640 3)
+D Tensor @images_202:out0 type: float32
+D Process Conv_Conv_0_187 ...
+D RKNN output shape(convolution): (1 320 320 16)
+D Tensor @Conv_Conv_0_187:out0 type: float32
+D Process Sigmoid_Sigmoid_1_188 ...
+D RKNN output shape(sigmoid): (1 320 320 16)
+D Tensor @Sigmoid_Sigmoid_1_188:out0 type: float32
+D Process Mul_Mul_2_172 ...
+D RKNN output shape(multiply): (1 320 320 16)
+D Tensor @Mul_Mul_2_172:out0 type: float32
+D Process Conv_Conv_3_171 ...
+D RKNN output shape(convolution): (1 160 160 32)
+D Tensor @Conv_Conv_3_171:out0 type: float32
+D Process Sigmoid_Sigmoid_4_157 ...
+D RKNN output shape(sigmoid): (1 160 160 32)
+D Tensor @Sigmoid_Sigmoid_4_157:out0 type: float32
+D Process Mul_Mul_5_156 ...
+D RKNN output shape(multiply): (1 160 160 32)
+D Tensor @Mul_Mul_5_156:out0 type: float32
+D Process Conv_Conv_6_167 ...
+D RKNN output shape(convolution): (1 160 160 16)
+D Tensor @Conv_Conv_6_167:out0 type: float32
+D Process Sigmoid_Sigmoid_7_168 ...
+D RKNN output shape(sigmoid): (1 160 160 16)
+D Tensor @Sigmoid_Sigmoid_7_168:out0 type: float32
+D Process Mul_Mul_8_154 ...
+D RKNN output shape(multiply): (1 160 160 16)
+D Tensor @Mul_Mul_8_154:out0 type: float32
+D Process Conv_Conv_9_189 ...
+D RKNN output shape(convolution): (1 160 160 16)
+D Tensor @Conv_Conv_9_189:out0 type: float32
+D Process Sigmoid_Sigmoid_10_186 ...
+D RKNN output shape(sigmoid): (1 160 160 16)
+D Tensor @Sigmoid_Sigmoid_10_186:out0 type: float32
+D Process Mul_Mul_11_185 ...
+D RKNN output shape(multiply): (1 160 160 16)
+D Tensor @Mul_Mul_11_185:out0 type: float32
+D Process Conv_Conv_12_169 ...
+D RKNN output shape(convolution): (1 160 160 16)
+D Tensor @Conv_Conv_12_169:out0 type: float32
+D Process Sigmoid_Sigmoid_13_170 ...
+D RKNN output shape(sigmoid): (1 160 160 16)
+D Tensor @Sigmoid_Sigmoid_13_170:out0 type: float32
+D Process Mul_Mul_14_155 ...
+D RKNN output shape(multiply): (1 160 160 16)
+D Tensor @Mul_Mul_14_155:out0 type: float32
+D Process Add_Add_15_141 ...
+D RKNN output shape(add): (1 160 160 16)
+D Tensor @Add_Add_15_141:out0 type: float32
+D Process Conv_Conv_16_142 ...
+D RKNN output shape(convolution): (1 160 160 16)
+D Tensor @Conv_Conv_16_142:out0 type: float32
+D Process Sigmoid_Sigmoid_17_143 ...
+D RKNN output shape(sigmoid): (1 160 160 16)
+D Tensor @Sigmoid_Sigmoid_17_143:out0 type: float32
+D Process Mul_Mul_18_129 ...
+D RKNN output shape(multiply): (1 160 160 16)
+D Tensor @Mul_Mul_18_129:out0 type: float32
+D Process Concat_Concat_19_128 ...
+D RKNN output shape(concat): (1 160 160 32)
+D Tensor @Concat_Concat_19_128:out0 type: float32
+D Process Conv_Conv_20_113 ...
+D RKNN output shape(convolution): (1 160 160 32)
+D Tensor @Conv_Conv_20_113:out0 type: float32
+D Process Sigmoid_Sigmoid_21_114 ...
+D RKNN output shape(sigmoid): (1 160 160 32)
+D Tensor @Sigmoid_Sigmoid_21_114:out0 type: float32
+D Process Mul_Mul_22_103 ...
+D RKNN output shape(multiply): (1 160 160 32)
+D Tensor @Mul_Mul_22_103:out0 type: float32
+D Process Conv_Conv_23_101 ...
+D RKNN output shape(convolution): (1 80 80 64)
+D Tensor @Conv_Conv_23_101:out0 type: float32
+D Process Sigmoid_Sigmoid_24_102 ...
+D RKNN output shape(sigmoid): (1 80 80 64)
+D Tensor @Sigmoid_Sigmoid_24_102:out0 type: float32
+D Process Mul_Mul_25_90 ...
+D RKNN output shape(multiply): (1 80 80 64)
+D Tensor @Mul_Mul_25_90:out0 type: float32
+D Process Conv_Conv_26_122 ...
+D RKNN output shape(convolution): (1 80 80 32)
+D Tensor @Conv_Conv_26_122:out0 type: float32
+D Process Sigmoid_Sigmoid_27_123 ...
+D RKNN output shape(sigmoid): (1 80 80 32)
+D Tensor @Sigmoid_Sigmoid_27_123:out0 type: float32
+D Process Mul_Mul_28_109 ...
+D RKNN output shape(multiply): (1 80 80 32)
+D Tensor @Mul_Mul_28_109:out0 type: float32
+D Process Conv_Conv_29_139 ...
+D RKNN output shape(convolution): (1 80 80 32)
+D Tensor @Conv_Conv_29_139:out0 type: float32
+D Process Sigmoid_Sigmoid_30_140 ...
+D RKNN output shape(sigmoid): (1 80 80 32)
+D Tensor @Sigmoid_Sigmoid_30_140:out0 type: float32
+D Process Mul_Mul_31_127 ...
+D RKNN output shape(multiply): (1 80 80 32)
+D Tensor @Mul_Mul_31_127:out0 type: float32
+D Process Conv_Conv_32_124 ...
+D RKNN output shape(convolution): (1 80 80 32)
+D Tensor @Conv_Conv_32_124:out0 type: float32
+D Process Sigmoid_Sigmoid_33_125 ...
+D RKNN output shape(sigmoid): (1 80 80 32)
+D Tensor @Sigmoid_Sigmoid_33_125:out0 type: float32
+D Process Mul_Mul_34_110 ...
+D RKNN output shape(multiply): (1 80 80 32)
+D Tensor @Mul_Mul_34_110:out0 type: float32
+D Process Add_Add_35_98 ...
+D RKNN output shape(add): (1 80 80 32)
+D Tensor @Add_Add_35_98:out0 type: float32
+D Process Conv_Conv_36_126 ...
+D RKNN output shape(convolution): (1 80 80 32)
+D Tensor @Conv_Conv_36_126:out0 type: float32
+D Process Sigmoid_Sigmoid_37_112 ...
+D RKNN output shape(sigmoid): (1 80 80 32)
+D Tensor @Sigmoid_Sigmoid_37_112:out0 type: float32
+D Process Mul_Mul_38_111 ...
+D RKNN output shape(multiply): (1 80 80 32)
+D Tensor @Mul_Mul_38_111:out0 type: float32
+D Process Conv_Conv_39_99 ...
+D RKNN output shape(convolution): (1 80 80 32)
+D Tensor @Conv_Conv_39_99:out0 type: float32
+D Process Sigmoid_Sigmoid_40_100 ...
+D RKNN output shape(sigmoid): (1 80 80 32)
+D Tensor @Sigmoid_Sigmoid_40_100:out0 type: float32
+D Process Mul_Mul_41_89 ...
+D RKNN output shape(multiply): (1 80 80 32)
+D Tensor @Mul_Mul_41_89:out0 type: float32
+D Process Add_Add_42_88 ...
+D RKNN output shape(add): (1 80 80 32)
+D Tensor @Add_Add_42_88:out0 type: float32
+D Process Conv_Conv_43_77 ...
+D RKNN output shape(convolution): (1 80 80 32)
+D Tensor @Conv_Conv_43_77:out0 type: float32
+D Process Sigmoid_Sigmoid_44_76 ...
+D RKNN output shape(sigmoid): (1 80 80 32)
+D Tensor @Sigmoid_Sigmoid_44_76:out0 type: float32
+D Process Mul_Mul_45_73 ...
+D RKNN output shape(multiply): (1 80 80 32)
+D Tensor @Mul_Mul_45_73:out0 type: float32
+D Process Concat_Concat_46_72 ...
+D RKNN output shape(concat): (1 80 80 64)
+D Tensor @Concat_Concat_46_72:out0 type: float32
+D Process Conv_Conv_47_55 ...
+D RKNN output shape(convolution): (1 80 80 64)
+D Tensor @Conv_Conv_47_55:out0 type: float32
+D Process Sigmoid_Sigmoid_48_56 ...
+D RKNN output shape(sigmoid): (1 80 80 64)
+D Tensor @Sigmoid_Sigmoid_48_56:out0 type: float32
+D Process Mul_Mul_49_41 ...
+D RKNN output shape(multiply): (1 80 80 64)
+D Tensor @Mul_Mul_49_41:out0 type: float32
+D Process Conv_Conv_50_153 ...
+D RKNN output shape(convolution): (1 40 40 128)
+D Tensor @Conv_Conv_50_153:out0 type: float32
+D Process Sigmoid_Sigmoid_51_152 ...
+D RKNN output shape(sigmoid): (1 40 40 128)
+D Tensor @Sigmoid_Sigmoid_51_152:out0 type: float32
+D Process Mul_Mul_52_151 ...
+D RKNN output shape(multiply): (1 40 40 128)
+D Tensor @Mul_Mul_52_151:out0 type: float32
+D Process Conv_Conv_53_198 ...
+D RKNN output shape(convolution): (1 40 40 64)
+D Tensor @Conv_Conv_53_198:out0 type: float32
+D Process Sigmoid_Sigmoid_54_199 ...
+D RKNN output shape(sigmoid): (1 40 40 64)
+D Tensor @Sigmoid_Sigmoid_54_199:out0 type: float32
+D Process Mul_Mul_55_193 ...
+D RKNN output shape(multiply): (1 40 40 64)
+D Tensor @Mul_Mul_55_193:out0 type: float32
+D Process Conv_Conv_56_201 ...
+D RKNN output shape(convolution): (1 40 40 64)
+D Tensor @Conv_Conv_56_201:out0 type: float32
+D Process Sigmoid_Sigmoid_57_200 ...
+D RKNN output shape(sigmoid): (1 40 40 64)
+D Tensor @Sigmoid_Sigmoid_57_200:out0 type: float32
+D Process Mul_Mul_58_197 ...
+D RKNN output shape(multiply): (1 40 40 64)
+D Tensor @Mul_Mul_58_197:out0 type: float32
+D Process Conv_Conv_59_196 ...
+D RKNN output shape(convolution): (1 40 40 64)
+D Tensor @Conv_Conv_59_196:out0 type: float32
+D Process Sigmoid_Sigmoid_60_195 ...
+D RKNN output shape(sigmoid): (1 40 40 64)
+D Tensor @Sigmoid_Sigmoid_60_195:out0 type: float32
+D Process Mul_Mul_61_194 ...
+D RKNN output shape(multiply): (1 40 40 64)
+D Tensor @Mul_Mul_61_194:out0 type: float32
+D Process Add_Add_62_179 ...
+D RKNN output shape(add): (1 40 40 64)
+D Tensor @Add_Add_62_179:out0 type: float32
+D Process Conv_Conv_63_192 ...
+D RKNN output shape(convolution): (1 40 40 64)
+D Tensor @Conv_Conv_63_192:out0 type: float32
+D Process Sigmoid_Sigmoid_64_190 ...
+D RKNN output shape(sigmoid): (1 40 40 64)
+D Tensor @Sigmoid_Sigmoid_64_190:out0 type: float32
+D Process Mul_Mul_65_184 ...
+D RKNN output shape(multiply): (1 40 40 64)
+D Tensor @Mul_Mul_65_184:out0 type: float32
+D Process Conv_Conv_66_183 ...
+D RKNN output shape(convolution): (1 40 40 64)
+D Tensor @Conv_Conv_66_183:out0 type: float32
+D Process Sigmoid_Sigmoid_67_182 ...
+D RKNN output shape(sigmoid): (1 40 40 64)
+D Tensor @Sigmoid_Sigmoid_67_182:out0 type: float32
+D Process Mul_Mul_68_180 ...
+D RKNN output shape(multiply): (1 40 40 64)
+D Tensor @Mul_Mul_68_180:out0 type: float32
+D Process Add_Add_69_162 ...
+D RKNN output shape(add): (1 40 40 64)
+D Tensor @Add_Add_69_162:out0 type: float32
+D Process Conv_Conv_70_181 ...
+D RKNN output shape(convolution): (1 40 40 64)
+D Tensor @Conv_Conv_70_181:out0 type: float32
+D Process Sigmoid_Sigmoid_71_166 ...
+D RKNN output shape(sigmoid): (1 40 40 64)
+D Tensor @Sigmoid_Sigmoid_71_166:out0 type: float32
+D Process Mul_Mul_72_165 ...
+D RKNN output shape(multiply): (1 40 40 64)
+D Tensor @Mul_Mul_72_165:out0 type: float32
+D Process Conv_Conv_73_163 ...
+D RKNN output shape(convolution): (1 40 40 64)
+D Tensor @Conv_Conv_73_163:out0 type: float32
+D Process Sigmoid_Sigmoid_74_164 ...
+D RKNN output shape(sigmoid): (1 40 40 64)
+D Tensor @Sigmoid_Sigmoid_74_164:out0 type: float32
+D Process Mul_Mul_75_150 ...
+D RKNN output shape(multiply): (1 40 40 64)
+D Tensor @Mul_Mul_75_150:out0 type: float32
+D Process Add_Add_76_149 ...
+D RKNN output shape(add): (1 40 40 64)
+D Tensor @Add_Add_76_149:out0 type: float32
+D Process Conv_Conv_77_138 ...
+D RKNN output shape(convolution): (1 40 40 64)
+D Tensor @Conv_Conv_77_138:out0 type: float32
+D Process Sigmoid_Sigmoid_78_137 ...
+D RKNN output shape(sigmoid): (1 40 40 64)
+D Tensor @Sigmoid_Sigmoid_78_137:out0 type: float32
+D Process Mul_Mul_79_136 ...
+D RKNN output shape(multiply): (1 40 40 64)
+D Tensor @Mul_Mul_79_136:out0 type: float32
+D Process Concat_Concat_80_135 ...
+D RKNN output shape(concat): (1 40 40 128)
+D Tensor @Concat_Concat_80_135:out0 type: float32
+D Process Conv_Conv_81_120 ...
+D RKNN output shape(convolution): (1 40 40 128)
+D Tensor @Conv_Conv_81_120:out0 type: float32
+D Process Sigmoid_Sigmoid_82_121 ...
+D RKNN output shape(sigmoid): (1 40 40 128)
+D Tensor @Sigmoid_Sigmoid_82_121:out0 type: float32
+D Process Mul_Mul_83_108 ...
+D RKNN output shape(multiply): (1 40 40 128)
+D Tensor @Mul_Mul_83_108:out0 type: float32
+D Process Conv_Conv_84_160 ...
+D RKNN output shape(convolution): (1 20 20 256)
+D Tensor @Conv_Conv_84_160:out0 type: float32
+D Process Sigmoid_Sigmoid_85_161 ...
+D RKNN output shape(sigmoid): (1 20 20 256)
+D Tensor @Sigmoid_Sigmoid_85_161:out0 type: float32
+D Process Mul_Mul_86_148 ...
+D RKNN output shape(multiply): (1 20 20 256)
+D Tensor @Mul_Mul_86_148:out0 type: float32
+D Process Conv_Conv_87_173 ...
+D RKNN output shape(convolution): (1 20 20 128)
+D Tensor @Conv_Conv_87_173:out0 type: float32
+D Process Sigmoid_Sigmoid_88_174 ...
+D RKNN output shape(sigmoid): (1 20 20 128)
+D Tensor @Sigmoid_Sigmoid_88_174:out0 type: float32
+D Process Mul_Mul_89_158 ...
+D RKNN output shape(multiply): (1 20 20 128)
+D Tensor @Mul_Mul_89_158:out0 type: float32
+D Process Conv_Conv_90_191 ...
+D RKNN output shape(convolution): (1 20 20 128)
+D Tensor @Conv_Conv_90_191:out0 type: float32
+D Process Sigmoid_Sigmoid_91_178 ...
+D RKNN output shape(sigmoid): (1 20 20 128)
+D Tensor @Sigmoid_Sigmoid_91_178:out0 type: float32
+D Process Mul_Mul_92_177 ...
+D RKNN output shape(multiply): (1 20 20 128)
+D Tensor @Mul_Mul_92_177:out0 type: float32
+D Process Conv_Conv_93_175 ...
+D RKNN output shape(convolution): (1 20 20 128)
+D Tensor @Conv_Conv_93_175:out0 type: float32
+D Process Sigmoid_Sigmoid_94_176 ...
+D RKNN output shape(sigmoid): (1 20 20 128)
+D Tensor @Sigmoid_Sigmoid_94_176:out0 type: float32
+D Process Mul_Mul_95_159 ...
+D RKNN output shape(multiply): (1 20 20 128)
+D Tensor @Mul_Mul_95_159:out0 type: float32
+D Process Add_Add_96_144 ...
+D RKNN output shape(add): (1 20 20 128)
+D Tensor @Add_Add_96_144:out0 type: float32
+D Process Conv_Conv_97_145 ...
+D RKNN output shape(convolution): (1 20 20 128)
+D Tensor @Conv_Conv_97_145:out0 type: float32
+D Process Sigmoid_Sigmoid_98_146 ...
+D RKNN output shape(sigmoid): (1 20 20 128)
+D Tensor @Sigmoid_Sigmoid_98_146:out0 type: float32
+D Process Mul_Mul_99_131 ...
+D RKNN output shape(multiply): (1 20 20 128)
+D Tensor @Mul_Mul_99_131:out0 type: float32
+D Process Concat_Concat_100_130 ...
+D RKNN output shape(concat): (1 20 20 256)
+D Tensor @Concat_Concat_100_130:out0 type: float32
+D Process Conv_Conv_101_115 ...
+D RKNN output shape(convolution): (1 20 20 256)
+D Tensor @Conv_Conv_101_115:out0 type: float32
+D Process Sigmoid_Sigmoid_102_116 ...
+D RKNN output shape(sigmoid): (1 20 20 256)
+D Tensor @Sigmoid_Sigmoid_102_116:out0 type: float32
+D Process Mul_Mul_103_104 ...
+D RKNN output shape(multiply): (1 20 20 256)
+D Tensor @Mul_Mul_103_104:out0 type: float32
+D Process Conv_Conv_104_94 ...
+D RKNN output shape(convolution): (1 20 20 128)
+D Tensor @Conv_Conv_104_94:out0 type: float32
+D Process Sigmoid_Sigmoid_105_93 ...
+D RKNN output shape(sigmoid): (1 20 20 128)
+D Tensor @Sigmoid_Sigmoid_105_93:out0 type: float32
+D Process Mul_Mul_106_91 ...
+D RKNN output shape(multiply): (1 20 20 128)
+D Tensor @Mul_Mul_106_91:out0 type: float32
+D Process MaxPool_MaxPool_107_92 ...
+D RKNN output shape(pooling): (1 20 20 128)
+D Tensor @MaxPool_MaxPool_107_92:out0 type: float32
+D Process MaxPool_MaxPool_108_83 ...
+D RKNN output shape(pooling): (1 20 20 128)
+D Tensor @MaxPool_MaxPool_108_83:out0 type: float32
+D Process MaxPool_MaxPool_109_82 ...
+D RKNN output shape(pooling): (1 20 20 128)
+D Tensor @MaxPool_MaxPool_109_82:out0 type: float32
+D Process Concat_Concat_110_79 ...
+D RKNN output shape(concat): (1 20 20 512)
+D Tensor @Concat_Concat_110_79:out0 type: float32
+D Process Conv_Conv_111_78 ...
+D RKNN output shape(convolution): (1 20 20 256)
+D Tensor @Conv_Conv_111_78:out0 type: float32
+D Process Sigmoid_Sigmoid_112_62 ...
+D RKNN output shape(sigmoid): (1 20 20 256)
+D Tensor @Sigmoid_Sigmoid_112_62:out0 type: float32
+D Process Mul_Mul_113_61 ...
+D RKNN output shape(multiply): (1 20 20 256)
+D Tensor @Mul_Mul_113_61:out0 type: float32
+D Process Conv_Conv_114_45 ...
+D RKNN output shape(convolution): (1 20 20 128)
+D Tensor @Conv_Conv_114_45:out0 type: float32
+D Process Sigmoid_Sigmoid_115_46 ...
+D RKNN output shape(sigmoid): (1 20 20 128)
+D Tensor @Sigmoid_Sigmoid_115_46:out0 type: float32
+D Process Mul_Mul_116_33 ...
+D RKNN output shape(multiply): (1 20 20 128)
+D Tensor @Mul_Mul_116_33:out0 type: float32
+D Process Resize_Resize_118_119 ...
+D RKNN output shape(image_resize): (1 40 40 128)
+D Tensor @Resize_Resize_118_119:out0 type: float32
+D Process Concat_Concat_119_107 ...
+D RKNN output shape(concat): (1 40 40 256)
+D Tensor @Concat_Concat_119_107:out0 type: float32
+D Process Conv_Conv_120_147 ...
+D RKNN output shape(convolution): (1 40 40 64)
+D Tensor @Conv_Conv_120_147:out0 type: float32
+D Process Sigmoid_Sigmoid_121_134 ...
+D RKNN output shape(sigmoid): (1 40 40 64)
+D Tensor @Sigmoid_Sigmoid_121_134:out0 type: float32
+D Process Mul_Mul_122_133 ...
+D RKNN output shape(multiply): (1 40 40 64)
+D Tensor @Mul_Mul_122_133:out0 type: float32
+D Process Conv_Conv_123_132 ...
+D RKNN output shape(convolution): (1 40 40 64)
+D Tensor @Conv_Conv_123_132:out0 type: float32
+D Process Sigmoid_Sigmoid_124_118 ...
+D RKNN output shape(sigmoid): (1 40 40 64)
+D Tensor @Sigmoid_Sigmoid_124_118:out0 type: float32
+D Process Mul_Mul_125_117 ...
+D RKNN output shape(multiply): (1 40 40 64)
+D Tensor @Mul_Mul_125_117:out0 type: float32
+D Process Conv_Conv_126_105 ...
+D RKNN output shape(convolution): (1 40 40 64)
+D Tensor @Conv_Conv_126_105:out0 type: float32
+D Process Sigmoid_Sigmoid_127_106 ...
+D RKNN output shape(sigmoid): (1 40 40 64)
+D Tensor @Sigmoid_Sigmoid_127_106:out0 type: float32
+D Process Mul_Mul_128_95 ...
+D RKNN output shape(multiply): (1 40 40 64)
+D Tensor @Mul_Mul_128_95:out0 type: float32
+D Process Conv_Conv_129_96 ...
+D RKNN output shape(convolution): (1 40 40 64)
+D Tensor @Conv_Conv_129_96:out0 type: float32
+D Process Sigmoid_Sigmoid_130_97 ...
+D RKNN output shape(sigmoid): (1 40 40 64)
+D Tensor @Sigmoid_Sigmoid_130_97:out0 type: float32
+D Process Mul_Mul_131_87 ...
+D RKNN output shape(multiply): (1 40 40 64)
+D Tensor @Mul_Mul_131_87:out0 type: float32
+D Process Concat_Concat_132_85 ...
+D RKNN output shape(concat): (1 40 40 128)
+D Tensor @Concat_Concat_132_85:out0 type: float32
+D Process Conv_Conv_133_84 ...
+D RKNN output shape(convolution): (1 40 40 128)
+D Tensor @Conv_Conv_133_84:out0 type: float32
+D Process Sigmoid_Sigmoid_134_68 ...
+D RKNN output shape(sigmoid): (1 40 40 128)
+D Tensor @Sigmoid_Sigmoid_134_68:out0 type: float32
+D Process Mul_Mul_135_67 ...
+D RKNN output shape(multiply): (1 40 40 128)
+D Tensor @Mul_Mul_135_67:out0 type: float32
+D Process Conv_Conv_136_50 ...
+D RKNN output shape(convolution): (1 40 40 64)
+D Tensor @Conv_Conv_136_50:out0 type: float32
+D Process Sigmoid_Sigmoid_137_51 ...
+D RKNN output shape(sigmoid): (1 40 40 64)
+D Tensor @Sigmoid_Sigmoid_137_51:out0 type: float32
+D Process Mul_Mul_138_37 ...
+D RKNN output shape(multiply): (1 40 40 64)
+D Tensor @Mul_Mul_138_37:out0 type: float32
+D Process Resize_Resize_140_54 ...
+D RKNN output shape(image_resize): (1 80 80 64)
+D Tensor @Resize_Resize_140_54:out0 type: float32
+D Process Concat_Concat_141_40 ...
+D RKNN output shape(concat): (1 80 80 128)
+D Tensor @Concat_Concat_141_40:out0 type: float32
+D Process Conv_Conv_142_86 ...
+D RKNN output shape(convolution): (1 80 80 32)
+D Tensor @Conv_Conv_142_86:out0 type: float32
+D Process Sigmoid_Sigmoid_143_71 ...
+D RKNN output shape(sigmoid): (1 80 80 32)
+D Tensor @Sigmoid_Sigmoid_143_71:out0 type: float32
+D Process Mul_Mul_144_70 ...
+D RKNN output shape(multiply): (1 80 80 32)
+D Tensor @Mul_Mul_144_70:out0 type: float32
+D Process Conv_Conv_145_69 ...
+D RKNN output shape(convolution): (1 80 80 32)
+D Tensor @Conv_Conv_145_69:out0 type: float32
+D Process Sigmoid_Sigmoid_146_53 ...
+D RKNN output shape(sigmoid): (1 80 80 32)
+D Tensor @Sigmoid_Sigmoid_146_53:out0 type: float32
+D Process Mul_Mul_147_52 ...
+D RKNN output shape(multiply): (1 80 80 32)
+D Tensor @Mul_Mul_147_52:out0 type: float32
+D Process Conv_Conv_148_38 ...
+D RKNN output shape(convolution): (1 80 80 32)
+D Tensor @Conv_Conv_148_38:out0 type: float32
+D Process Sigmoid_Sigmoid_149_39 ...
+D RKNN output shape(sigmoid): (1 80 80 32)
+D Tensor @Sigmoid_Sigmoid_149_39:out0 type: float32
+D Process Mul_Mul_150_27 ...
+D RKNN output shape(multiply): (1 80 80 32)
+D Tensor @Mul_Mul_150_27:out0 type: float32
+D Process Conv_Conv_151_28 ...
+D RKNN output shape(convolution): (1 80 80 32)
+D Tensor @Conv_Conv_151_28:out0 type: float32
+D Process Sigmoid_Sigmoid_152_29 ...
+D RKNN output shape(sigmoid): (1 80 80 32)
+D Tensor @Sigmoid_Sigmoid_152_29:out0 type: float32
+D Process Mul_Mul_153_20 ...
+D RKNN output shape(multiply): (1 80 80 32)
+D Tensor @Mul_Mul_153_20:out0 type: float32
+D Process Concat_Concat_154_19 ...
+D RKNN output shape(concat): (1 80 80 64)
+D Tensor @Concat_Concat_154_19:out0 type: float32
+D Process Conv_Conv_155_13 ...
+D RKNN output shape(convolution): (1 80 80 64)
+D Tensor @Conv_Conv_155_13:out0 type: float32
+D Process Sigmoid_Sigmoid_156_14 ...
+D RKNN output shape(sigmoid): (1 80 80 64)
+D Tensor @Sigmoid_Sigmoid_156_14:out0 type: float32
+D Process Mul_Mul_157_8 ...
+D RKNN output shape(multiply): (1 80 80 64)
+D Tensor @Mul_Mul_157_8:out0 type: float32
+D Process Conv_Conv_198_5 ...
+D RKNN output shape(convolution): (1 80 80 33)
+D Tensor @Conv_Conv_198_5:out0 type: float32
+D Process attach_Conv_Conv_198/out0_0 ...
+D RKNN output shape(output): (1 80 80 33)
+D Tensor @attach_Conv_Conv_198/out0_0:out0 type: float32
+D Process Conv_Conv_158_65 ...
+D RKNN output shape(convolution): (1 40 40 64)
+D Tensor @Conv_Conv_158_65:out0 type: float32
+D Process Sigmoid_Sigmoid_159_66 ...
+D RKNN output shape(sigmoid): (1 40 40 64)
+D Tensor @Sigmoid_Sigmoid_159_66:out0 type: float32
+D Process Mul_Mul_160_49 ...
+D RKNN output shape(multiply): (1 40 40 64)
+D Tensor @Mul_Mul_160_49:out0 type: float32
+D Process Concat_Concat_161_36 ...
+D RKNN output shape(concat): (1 40 40 128)
+D Tensor @Concat_Concat_161_36:out0 type: float32
+D Process Conv_Conv_162_80 ...
+D RKNN output shape(convolution): (1 40 40 64)
+D Tensor @Conv_Conv_162_80:out0 type: float32
+D Process Sigmoid_Sigmoid_163_81 ...
+D RKNN output shape(sigmoid): (1 40 40 64)
+D Tensor @Sigmoid_Sigmoid_163_81:out0 type: float32
+D Process Mul_Mul_164_64 ...
+D RKNN output shape(multiply): (1 40 40 64)
+D Tensor @Mul_Mul_164_64:out0 type: float32
+D Process Conv_Conv_165_63 ...
+D RKNN output shape(convolution): (1 40 40 64)
+D Tensor @Conv_Conv_165_63:out0 type: float32
+D Process Sigmoid_Sigmoid_166_48 ...
+D RKNN output shape(sigmoid): (1 40 40 64)
+D Tensor @Sigmoid_Sigmoid_166_48:out0 type: float32
+D Process Mul_Mul_167_47 ...
+D RKNN output shape(multiply): (1 40 40 64)
+D Tensor @Mul_Mul_167_47:out0 type: float32
+D Process Conv_Conv_168_34 ...
+D RKNN output shape(convolution): (1 40 40 64)
+D Tensor @Conv_Conv_168_34:out0 type: float32
+D Process Sigmoid_Sigmoid_169_35 ...
+D RKNN output shape(sigmoid): (1 40 40 64)
+D Tensor @Sigmoid_Sigmoid_169_35:out0 type: float32
+D Process Mul_Mul_170_24 ...
+D RKNN output shape(multiply): (1 40 40 64)
+D Tensor @Mul_Mul_170_24:out0 type: float32
+D Process Conv_Conv_171_25 ...
+D RKNN output shape(convolution): (1 40 40 64)
+D Tensor @Conv_Conv_171_25:out0 type: float32
+D Process Sigmoid_Sigmoid_172_26 ...
+D RKNN output shape(sigmoid): (1 40 40 64)
+D Tensor @Sigmoid_Sigmoid_172_26:out0 type: float32
+D Process Mul_Mul_173_18 ...
+D RKNN output shape(multiply): (1 40 40 64)
+D Tensor @Mul_Mul_173_18:out0 type: float32
+D Process Concat_Concat_174_17 ...
+D RKNN output shape(concat): (1 40 40 128)
+D Tensor @Concat_Concat_174_17:out0 type: float32
+D Process Conv_Conv_175_11 ...
+D RKNN output shape(convolution): (1 40 40 128)
+D Tensor @Conv_Conv_175_11:out0 type: float32
+D Process Sigmoid_Sigmoid_176_12 ...
+D RKNN output shape(sigmoid): (1 40 40 128)
+D Tensor @Sigmoid_Sigmoid_176_12:out0 type: float32
+D Process Mul_Mul_177_7 ...
+D RKNN output shape(multiply): (1 40 40 128)
+D Tensor @Mul_Mul_177_7:out0 type: float32
+D Process Conv_Conv_247_4 ...
+D RKNN output shape(convolution): (1 40 40 33)
+D Tensor @Conv_Conv_247_4:out0 type: float32
+D Process attach_Conv_Conv_247/out0_1 ...
+D RKNN output shape(output): (1 40 40 33)
+D Tensor @attach_Conv_Conv_247/out0_1:out0 type: float32
+D Process Conv_Conv_178_59 ...
+D RKNN output shape(convolution): (1 20 20 128)
+D Tensor @Conv_Conv_178_59:out0 type: float32
+D Process Sigmoid_Sigmoid_179_60 ...
+D RKNN output shape(sigmoid): (1 20 20 128)
+D Tensor @Sigmoid_Sigmoid_179_60:out0 type: float32
+D Process Mul_Mul_180_44 ...
+D RKNN output shape(multiply): (1 20 20 128)
+D Tensor @Mul_Mul_180_44:out0 type: float32
+D Process Concat_Concat_181_32 ...
+D RKNN output shape(concat): (1 20 20 256)
+D Tensor @Concat_Concat_181_32:out0 type: float32
+D Process Conv_Conv_182_74 ...
+D RKNN output shape(convolution): (1 20 20 128)
+D Tensor @Conv_Conv_182_74:out0 type: float32
+D Process Sigmoid_Sigmoid_183_75 ...
+D RKNN output shape(sigmoid): (1 20 20 128)
+D Tensor @Sigmoid_Sigmoid_183_75:out0 type: float32
+D Process Mul_Mul_184_58 ...
+D RKNN output shape(multiply): (1 20 20 128)
+D Tensor @Mul_Mul_184_58:out0 type: float32
+D Process Conv_Conv_185_57 ...
+D RKNN output shape(convolution): (1 20 20 128)
+D Tensor @Conv_Conv_185_57:out0 type: float32
+D Process Sigmoid_Sigmoid_186_43 ...
+D RKNN output shape(sigmoid): (1 20 20 128)
+D Tensor @Sigmoid_Sigmoid_186_43:out0 type: float32
+D Process Mul_Mul_187_42 ...
+D RKNN output shape(multiply): (1 20 20 128)
+D Tensor @Mul_Mul_187_42:out0 type: float32
+D Process Conv_Conv_188_30 ...
+D RKNN output shape(convolution): (1 20 20 128)
+D Tensor @Conv_Conv_188_30:out0 type: float32
+D Process Sigmoid_Sigmoid_189_31 ...
+D RKNN output shape(sigmoid): (1 20 20 128)
+D Tensor @Sigmoid_Sigmoid_189_31:out0 type: float32
+D Process Mul_Mul_190_21 ...
+D RKNN output shape(multiply): (1 20 20 128)
+D Tensor @Mul_Mul_190_21:out0 type: float32
+D Process Conv_Conv_191_22 ...
+D RKNN output shape(convolution): (1 20 20 128)
+D Tensor @Conv_Conv_191_22:out0 type: float32
+D Process Sigmoid_Sigmoid_192_23 ...
+D RKNN output shape(sigmoid): (1 20 20 128)
+D Tensor @Sigmoid_Sigmoid_192_23:out0 type: float32
+D Process Mul_Mul_193_16 ...
+D RKNN output shape(multiply): (1 20 20 128)
+D Tensor @Mul_Mul_193_16:out0 type: float32
+D Process Concat_Concat_194_15 ...
+D RKNN output shape(concat): (1 20 20 256)
+D Tensor @Concat_Concat_194_15:out0 type: float32
+D Process Conv_Conv_195_9 ...
+D RKNN output shape(convolution): (1 20 20 256)
+D Tensor @Conv_Conv_195_9:out0 type: float32
+D Process Sigmoid_Sigmoid_196_10 ...
+D RKNN output shape(sigmoid): (1 20 20 256)
+D Tensor @Sigmoid_Sigmoid_196_10:out0 type: float32
+D Process Mul_Mul_197_6 ...
+D RKNN output shape(multiply): (1 20 20 256)
+D Tensor @Mul_Mul_197_6:out0 type: float32
+D Process Conv_Conv_296_3 ...
+D RKNN output shape(convolution): (1 20 20 33)
+D Tensor @Conv_Conv_296_3:out0 type: float32
+D Process attach_Conv_Conv_296/out0_2 ...
+D RKNN output shape(output): (1 20 20 33)
+D Tensor @attach_Conv_Conv_296/out0_2:out0 type: float32
+I Build torch-jit-export complete.
+I Start C2T Switcher...
+D Optimizing network with broadcast_op
+D convert Mul_Mul_2_172(multiply) axis 1 to 3
+D convert Mul_Mul_5_156(multiply) axis 1 to 3
+D convert Mul_Mul_18_129(multiply) axis 1 to 3
+D convert Mul_Mul_8_154(multiply) axis 1 to 3
+D convert Mul_Mul_11_185(multiply) axis 1 to 3
+D convert Mul_Mul_14_155(multiply) axis 1 to 3
+D convert Concat_Concat_19_128(concat) axis 1 to 3
+D convert Mul_Mul_22_103(multiply) axis 1 to 3
+D convert Mul_Mul_25_90(multiply) axis 1 to 3
+D convert Mul_Mul_45_73(multiply) axis 1 to 3
+D convert Mul_Mul_28_109(multiply) axis 1 to 3
+D convert Mul_Mul_31_127(multiply) axis 1 to 3
+D convert Mul_Mul_34_110(multiply) axis 1 to 3
+D convert Mul_Mul_38_111(multiply) axis 1 to 3
+D convert Mul_Mul_41_89(multiply) axis 1 to 3
+D convert Concat_Concat_46_72(concat) axis 1 to 3
+D convert Mul_Mul_49_41(multiply) axis 1 to 3
+D convert Mul_Mul_52_151(multiply) axis 1 to 3
+D convert Mul_Mul_79_136(multiply) axis 1 to 3
+D convert Mul_Mul_55_193(multiply) axis 1 to 3
+D convert Mul_Mul_58_197(multiply) axis 1 to 3
+D convert Mul_Mul_61_194(multiply) axis 1 to 3
+D convert Mul_Mul_65_184(multiply) axis 1 to 3
+D convert Mul_Mul_68_180(multiply) axis 1 to 3
+D convert Mul_Mul_72_165(multiply) axis 1 to 3
+D convert Mul_Mul_75_150(multiply) axis 1 to 3
+D convert Concat_Concat_80_135(concat) axis 1 to 3
+D convert Mul_Mul_83_108(multiply) axis 1 to 3
+D convert Mul_Mul_86_148(multiply) axis 1 to 3
+D convert Mul_Mul_99_131(multiply) axis 1 to 3
+D convert Mul_Mul_89_158(multiply) axis 1 to 3
+D convert Mul_Mul_92_177(multiply) axis 1 to 3
+D convert Mul_Mul_95_159(multiply) axis 1 to 3
+D convert Concat_Concat_100_130(concat) axis 1 to 3
+D convert Mul_Mul_103_104(multiply) axis 1 to 3
+D convert Mul_Mul_106_91(multiply) axis 1 to 3
+D convert Concat_Concat_110_79(concat) axis 1 to 3
+D convert Mul_Mul_113_61(multiply) axis 1 to 3
+D convert Mul_Mul_116_33(multiply) axis 1 to 3
+D convert Concat_Concat_119_107(concat) axis 1 to 3
+D convert Mul_Mul_131_87(multiply) axis 1 to 3
+D convert Mul_Mul_122_133(multiply) axis 1 to 3
+D convert Mul_Mul_125_117(multiply) axis 1 to 3
+D convert Mul_Mul_128_95(multiply) axis 1 to 3
+D convert Concat_Concat_132_85(concat) axis 1 to 3
+D convert Mul_Mul_135_67(multiply) axis 1 to 3
+D convert Mul_Mul_138_37(multiply) axis 1 to 3
+D convert Concat_Concat_141_40(concat) axis 1 to 3
+D convert Mul_Mul_153_20(multiply) axis 1 to 3
+D convert Mul_Mul_144_70(multiply) axis 1 to 3
+D convert Mul_Mul_147_52(multiply) axis 1 to 3
+D convert Mul_Mul_150_27(multiply) axis 1 to 3
+D convert Concat_Concat_154_19(concat) axis 1 to 3
+D convert Mul_Mul_157_8(multiply) axis 1 to 3
+D convert Mul_Mul_160_49(multiply) axis 1 to 3
+D convert Concat_Concat_161_36(concat) axis 1 to 3
+D convert Mul_Mul_173_18(multiply) axis 1 to 3
+D convert Mul_Mul_164_64(multiply) axis 1 to 3
+D convert Mul_Mul_167_47(multiply) axis 1 to 3
+D convert Mul_Mul_170_24(multiply) axis 1 to 3
+D convert Concat_Concat_174_17(concat) axis 1 to 3
+D convert Mul_Mul_177_7(multiply) axis 1 to 3
+D convert Mul_Mul_180_44(multiply) axis 1 to 3
+D convert Concat_Concat_181_32(concat) axis 1 to 3
+D convert Mul_Mul_193_16(multiply) axis 1 to 3
+D convert Mul_Mul_184_58(multiply) axis 1 to 3
+D convert Mul_Mul_187_42(multiply) axis 1 to 3
+D convert Mul_Mul_190_21(multiply) axis 1 to 3
+D convert Concat_Concat_194_15(concat) axis 1 to 3
+D convert Mul_Mul_197_6(multiply) axis 1 to 3
+I End C2T Switcher...
+D Optimizing network with force_1d_tensor, swapper, merge_duplicate_quantize_dequantize, merge_layer, auto_fill_bn, auto_fill_l2normalizescale, auto_fill_instancenormalize, resize_nearest_transformer, eltwise_transform, auto_fill_multiply, auto_fill_zero_bias, proposal_opt_import, special_add_to_conv2d
+D Merge ['Sigmoid_Sigmoid_196_10', 'Mul_Mul_197_6'] (swish)
+D Merge ['Sigmoid_Sigmoid_176_12', 'Mul_Mul_177_7'] (swish)
+D Merge ['Sigmoid_Sigmoid_156_14', 'Mul_Mul_157_8'] (swish)
+D Merge ['Sigmoid_Sigmoid_192_23', 'Mul_Mul_193_16'] (swish)
+D Merge ['Sigmoid_Sigmoid_172_26', 'Mul_Mul_173_18'] (swish)
+D Merge ['Sigmoid_Sigmoid_152_29', 'Mul_Mul_153_20'] (swish)
+D Merge ['Sigmoid_Sigmoid_189_31', 'Mul_Mul_190_21'] (swish)
+D Merge ['Sigmoid_Sigmoid_169_35', 'Mul_Mul_170_24'] (swish)
+D Merge ['Sigmoid_Sigmoid_149_39', 'Mul_Mul_150_27'] (swish)
+D Merge ['Sigmoid_Sigmoid_186_43', 'Mul_Mul_187_42'] (swish)
+D Merge ['Sigmoid_Sigmoid_115_46', 'Mul_Mul_116_33'] (swish)
+D Merge ['Sigmoid_Sigmoid_166_48', 'Mul_Mul_167_47'] (swish)
+D Merge ['Sigmoid_Sigmoid_137_51', 'Mul_Mul_138_37'] (swish)
+D Merge ['Sigmoid_Sigmoid_146_53', 'Mul_Mul_147_52'] (swish)
+D Merge ['Sigmoid_Sigmoid_48_56', 'Mul_Mul_49_41'] (swish)
+D Merge ['Sigmoid_Sigmoid_179_60', 'Mul_Mul_180_44'] (swish)
+D Merge ['Sigmoid_Sigmoid_112_62', 'Mul_Mul_113_61'] (swish)
+D Merge ['Sigmoid_Sigmoid_159_66', 'Mul_Mul_160_49'] (swish)
+D Merge ['Sigmoid_Sigmoid_134_68', 'Mul_Mul_135_67'] (swish)
+D Merge ['Sigmoid_Sigmoid_143_71', 'Mul_Mul_144_70'] (swish)
+D Merge ['Sigmoid_Sigmoid_183_75', 'Mul_Mul_184_58'] (swish)
+D Merge ['Sigmoid_Sigmoid_44_76', 'Mul_Mul_45_73'] (swish)
+D Merge ['Sigmoid_Sigmoid_163_81', 'Mul_Mul_164_64'] (swish)
+D Merge ['Sigmoid_Sigmoid_105_93', 'Mul_Mul_106_91'] (swish)
+D Merge ['Sigmoid_Sigmoid_130_97', 'Mul_Mul_131_87'] (swish)
+D Merge ['Sigmoid_Sigmoid_40_100', 'Mul_Mul_41_89'] (swish)
+D Merge ['Sigmoid_Sigmoid_24_102', 'Mul_Mul_25_90'] (swish)
+D Merge ['Sigmoid_Sigmoid_127_106', 'Mul_Mul_128_95'] (swish)
+D Merge ['Sigmoid_Sigmoid_37_112', 'Mul_Mul_38_111'] (swish)
+D Merge ['Sigmoid_Sigmoid_21_114', 'Mul_Mul_22_103'] (swish)
+D Merge ['Sigmoid_Sigmoid_102_116', 'Mul_Mul_103_104'] (swish)
+D Merge ['Sigmoid_Sigmoid_124_118', 'Mul_Mul_125_117'] (swish)
+D Merge ['Sigmoid_Sigmoid_82_121', 'Mul_Mul_83_108'] (swish)
+D Merge ['Sigmoid_Sigmoid_27_123', 'Mul_Mul_28_109'] (swish)
+D Merge ['Sigmoid_Sigmoid_33_125', 'Mul_Mul_34_110'] (swish)
+D Merge ['Sigmoid_Sigmoid_121_134', 'Mul_Mul_122_133'] (swish)
+D Merge ['Sigmoid_Sigmoid_78_137', 'Mul_Mul_79_136'] (swish)
+D Merge ['Sigmoid_Sigmoid_30_140', 'Mul_Mul_31_127'] (swish)
+D Merge ['Sigmoid_Sigmoid_17_143', 'Mul_Mul_18_129'] (swish)
+D Merge ['Sigmoid_Sigmoid_98_146', 'Mul_Mul_99_131'] (swish)
+D Merge ['Sigmoid_Sigmoid_51_152', 'Mul_Mul_52_151'] (swish)
+D Merge ['Sigmoid_Sigmoid_4_157', 'Mul_Mul_5_156'] (swish)
+D Merge ['Sigmoid_Sigmoid_85_161', 'Mul_Mul_86_148'] (swish)
+D Merge ['Sigmoid_Sigmoid_74_164', 'Mul_Mul_75_150'] (swish)
+D Merge ['Sigmoid_Sigmoid_71_166', 'Mul_Mul_72_165'] (swish)
+D Merge ['Sigmoid_Sigmoid_7_168', 'Mul_Mul_8_154'] (swish)
+D Merge ['Sigmoid_Sigmoid_13_170', 'Mul_Mul_14_155'] (swish)
+D Merge ['Sigmoid_Sigmoid_88_174', 'Mul_Mul_89_158'] (swish)
+D Merge ['Sigmoid_Sigmoid_94_176', 'Mul_Mul_95_159'] (swish)
+D Merge ['Sigmoid_Sigmoid_91_178', 'Mul_Mul_92_177'] (swish)
+D Merge ['Sigmoid_Sigmoid_67_182', 'Mul_Mul_68_180'] (swish)
+D Merge ['Sigmoid_Sigmoid_10_186', 'Mul_Mul_11_185'] (swish)
+D Merge ['Sigmoid_Sigmoid_1_188', 'Mul_Mul_2_172'] (swish)
+D Merge ['Sigmoid_Sigmoid_64_190', 'Mul_Mul_65_184'] (swish)
+D Merge ['Sigmoid_Sigmoid_60_195', 'Mul_Mul_61_194'] (swish)
+D Merge ['Sigmoid_Sigmoid_54_199', 'Mul_Mul_55_193'] (swish)
+D Merge ['Sigmoid_Sigmoid_57_200', 'Mul_Mul_58_197'] (swish)
+I End importing onnx...
+I Generate input meta ...
+I Load input meta
+I Generate input meta ...
+D import clients finished
+I Load net...
+I Load data...
+I Load input meta
+I Start quantization...
+D import clients finished
+D iterations: 66, batch_size: 100
+I Quantization start...
+D set up a quantize net
+D *********** Setup input meta ***********
+D import clients finished
+D *********** Setup database (1) ***********
+D Setup provider layer "text_input_layer":
+D Lids: ['images_202']
+D Shapes: [[100, 640, 640, 3]]
+D Data types: ['float32']
+D Sparse tensors: []
+D Tensor names(H5FS only): []
+D Add preprocess "[('reverse_channel', False), ('mean', [0, 0, 0]), ('scale', [0.00392156862745098, 0.00392156862745098, 0.00392156862745098]), ('preproc_node_params', ordereddict([('add_preproc_node', False), ('preproc_type', 'IMAGE_RGB'), ('preproc_perm', [0, 1, 2, 3])]))]" for "images_202"
+D *********** Setup input meta complete ***********
+D Process images_202 ...
+D RKNN output shape(input): (100 640 640 3)
+D Tensor @images_202:out0 type: asymmetric_affine
+D Real output shape: (100, 640, 640, 3)
+D Process Conv_Conv_0_187 ...
+D RKNN output shape(convolution): (100 320 320 16)
+D Tensor @Conv_Conv_0_187:out0 type: asymmetric_affine
+D Real output shape: (100, 320, 320, 16)
+D Process Sigmoid_Sigmoid_1_188_Mul_Mul_2_172 ...
+D RKNN output shape(swish): (100 320 320 16)
+D Tensor @Sigmoid_Sigmoid_1_188_Mul_Mul_2_172:out0 type: asymmetric_affine
+D Real output shape: (100, 320, 320, 16)
+D Process Conv_Conv_3_171 ...
+D RKNN output shape(convolution): (100 160 160 32)
+D Tensor @Conv_Conv_3_171:out0 type: asymmetric_affine
+D Real output shape: (100, 160, 160, 32)
+D Process Sigmoid_Sigmoid_4_157_Mul_Mul_5_156 ...
+D RKNN output shape(swish): (100 160 160 32)
+D Tensor @Sigmoid_Sigmoid_4_157_Mul_Mul_5_156:out0 type: asymmetric_affine
+D Real output shape: (100, 160, 160, 32)
+D Process Conv_Conv_6_167 ...
+D RKNN output shape(convolution): (100 160 160 16)
+D Tensor @Conv_Conv_6_167:out0 type: asymmetric_affine
+D Real output shape: (100, 160, 160, 16)
+D Process Sigmoid_Sigmoid_7_168_Mul_Mul_8_154 ...
+D RKNN output shape(swish): (100 160 160 16)
+D Tensor @Sigmoid_Sigmoid_7_168_Mul_Mul_8_154:out0 type: asymmetric_affine
+D Real output shape: (100, 160, 160, 16)
+D Process Conv_Conv_9_189 ...
+D RKNN output shape(convolution): (100 160 160 16)
+D Tensor @Conv_Conv_9_189:out0 type: asymmetric_affine
+D Real output shape: (100, 160, 160, 16)
+D Process Sigmoid_Sigmoid_10_186_Mul_Mul_11_185 ...
+D RKNN output shape(swish): (100 160 160 16)
+D Tensor @Sigmoid_Sigmoid_10_186_Mul_Mul_11_185:out0 type: asymmetric_affine
+D Real output shape: (100, 160, 160, 16)
+D Process Conv_Conv_12_169 ...
+D RKNN output shape(convolution): (100 160 160 16)
+D Tensor @Conv_Conv_12_169:out0 type: asymmetric_affine
+D Real output shape: (100, 160, 160, 16)
+D Process Sigmoid_Sigmoid_13_170_Mul_Mul_14_155 ...
+D RKNN output shape(swish): (100 160 160 16)
+D Tensor @Sigmoid_Sigmoid_13_170_Mul_Mul_14_155:out0 type: asymmetric_affine
+D Real output shape: (100, 160, 160, 16)
+D Process Add_Add_15_141 ...
+D RKNN output shape(add): (100 160 160 16)
+D Tensor @Add_Add_15_141:out0 type: asymmetric_affine
+D Real output shape: (100, 160, 160, 16)
+D Process Conv_Conv_16_142 ...
+D RKNN output shape(convolution): (100 160 160 16)
+D Tensor @Conv_Conv_16_142:out0 type: asymmetric_affine
+D Real output shape: (100, 160, 160, 16)
+D Process Sigmoid_Sigmoid_17_143_Mul_Mul_18_129 ...
+D RKNN output shape(swish): (100 160 160 16)
+D Tensor @Sigmoid_Sigmoid_17_143_Mul_Mul_18_129:out0 type: asymmetric_affine
+D Real output shape: (100, 160, 160, 16)
+D Process Concat_Concat_19_128 ...
+D RKNN output shape(concat): (100 160 160 32)
+D Tensor @Concat_Concat_19_128:out0 type: asymmetric_affine
+D Real output shape: (100, 160, 160, 32)
+D Process Conv_Conv_20_113 ...
+D RKNN output shape(convolution): (100 160 160 32)
+D Tensor @Conv_Conv_20_113:out0 type: asymmetric_affine
+D Real output shape: (100, 160, 160, 32)
+D Process Sigmoid_Sigmoid_21_114_Mul_Mul_22_103 ...
+D RKNN output shape(swish): (100 160 160 32)
+D Tensor @Sigmoid_Sigmoid_21_114_Mul_Mul_22_103:out0 type: asymmetric_affine
+D Real output shape: (100, 160, 160, 32)
+D Process Conv_Conv_23_101 ...
+D RKNN output shape(convolution): (100 80 80 64)
+D Tensor @Conv_Conv_23_101:out0 type: asymmetric_affine
+D Real output shape: (100, 80, 80, 64)
+D Process Sigmoid_Sigmoid_24_102_Mul_Mul_25_90 ...
+D RKNN output shape(swish): (100 80 80 64)
+D Tensor @Sigmoid_Sigmoid_24_102_Mul_Mul_25_90:out0 type: asymmetric_affine
+D Real output shape: (100, 80, 80, 64)
+D Process Conv_Conv_26_122 ...
+D RKNN output shape(convolution): (100 80 80 32)
+D Tensor @Conv_Conv_26_122:out0 type: asymmetric_affine
+D Real output shape: (100, 80, 80, 32)
+D Process Sigmoid_Sigmoid_27_123_Mul_Mul_28_109 ...
+D RKNN output shape(swish): (100 80 80 32)
+D Tensor @Sigmoid_Sigmoid_27_123_Mul_Mul_28_109:out0 type: asymmetric_affine
+D Real output shape: (100, 80, 80, 32)
+D Process Conv_Conv_29_139 ...
+D RKNN output shape(convolution): (100 80 80 32)
+D Tensor @Conv_Conv_29_139:out0 type: asymmetric_affine
+D Real output shape: (100, 80, 80, 32)
+D Process Sigmoid_Sigmoid_30_140_Mul_Mul_31_127 ...
+D RKNN output shape(swish): (100 80 80 32)
+D Tensor @Sigmoid_Sigmoid_30_140_Mul_Mul_31_127:out0 type: asymmetric_affine
+D Real output shape: (100, 80, 80, 32)
+D Process Conv_Conv_32_124 ...
+D RKNN output shape(convolution): (100 80 80 32)
+D Tensor @Conv_Conv_32_124:out0 type: asymmetric_affine
+D Real output shape: (100, 80, 80, 32)
+D Process Sigmoid_Sigmoid_33_125_Mul_Mul_34_110 ...
+D RKNN output shape(swish): (100 80 80 32)
+D Tensor @Sigmoid_Sigmoid_33_125_Mul_Mul_34_110:out0 type: asymmetric_affine
+D Real output shape: (100, 80, 80, 32)
+D Process Add_Add_35_98 ...
+D RKNN output shape(add): (100 80 80 32)
+D Tensor @Add_Add_35_98:out0 type: asymmetric_affine
+D Real output shape: (100, 80, 80, 32)
+D Process Conv_Conv_36_126 ...
+D RKNN output shape(convolution): (100 80 80 32)
+D Tensor @Conv_Conv_36_126:out0 type: asymmetric_affine
+D Real output shape: (100, 80, 80, 32)
+D Process Sigmoid_Sigmoid_37_112_Mul_Mul_38_111 ...
+D RKNN output shape(swish): (100 80 80 32)
+D Tensor @Sigmoid_Sigmoid_37_112_Mul_Mul_38_111:out0 type: asymmetric_affine
+D Real output shape: (100, 80, 80, 32)
+D Process Conv_Conv_39_99 ...
+D RKNN output shape(convolution): (100 80 80 32)
+D Tensor @Conv_Conv_39_99:out0 type: asymmetric_affine
+D Real output shape: (100, 80, 80, 32)
+D Process Sigmoid_Sigmoid_40_100_Mul_Mul_41_89 ...
+D RKNN output shape(swish): (100 80 80 32)
+D Tensor @Sigmoid_Sigmoid_40_100_Mul_Mul_41_89:out0 type: asymmetric_affine
+D Real output shape: (100, 80, 80, 32)
+D Process Add_Add_42_88 ...
+D RKNN output shape(add): (100 80 80 32)
+D Tensor @Add_Add_42_88:out0 type: asymmetric_affine
+D Real output shape: (100, 80, 80, 32)
+D Process Conv_Conv_43_77 ...
+D RKNN output shape(convolution): (100 80 80 32)
+D Tensor @Conv_Conv_43_77:out0 type: asymmetric_affine
+D Real output shape: (100, 80, 80, 32)
+D Process Sigmoid_Sigmoid_44_76_Mul_Mul_45_73 ...
+D RKNN output shape(swish): (100 80 80 32)
+D Tensor @Sigmoid_Sigmoid_44_76_Mul_Mul_45_73:out0 type: asymmetric_affine
+D Real output shape: (100, 80, 80, 32)
+D Process Concat_Concat_46_72 ...
+D RKNN output shape(concat): (100 80 80 64)
+D Tensor @Concat_Concat_46_72:out0 type: asymmetric_affine
+D Real output shape: (100, 80, 80, 64)
+D Process Conv_Conv_47_55 ...
+D RKNN output shape(convolution): (100 80 80 64)
+D Tensor @Conv_Conv_47_55:out0 type: asymmetric_affine
+D Real output shape: (100, 80, 80, 64)
+D Process Sigmoid_Sigmoid_48_56_Mul_Mul_49_41 ...
+D RKNN output shape(swish): (100 80 80 64)
+D Tensor @Sigmoid_Sigmoid_48_56_Mul_Mul_49_41:out0 type: asymmetric_affine
+D Real output shape: (100, 80, 80, 64)
+D Process Conv_Conv_50_153 ...
+D RKNN output shape(convolution): (100 40 40 128)
+D Tensor @Conv_Conv_50_153:out0 type: asymmetric_affine
+D Real output shape: (100, 40, 40, 128)
+D Process Sigmoid_Sigmoid_51_152_Mul_Mul_52_151 ...
+D RKNN output shape(swish): (100 40 40 128)
+D Tensor @Sigmoid_Sigmoid_51_152_Mul_Mul_52_151:out0 type: asymmetric_affine
+D Real output shape: (100, 40, 40, 128)
+D Process Conv_Conv_53_198 ...
+D RKNN output shape(convolution): (100 40 40 64)
+D Tensor @Conv_Conv_53_198:out0 type: asymmetric_affine
+D Real output shape: (100, 40, 40, 64)
+D Process Sigmoid_Sigmoid_54_199_Mul_Mul_55_193 ...
+D RKNN output shape(swish): (100 40 40 64)
+D Tensor @Sigmoid_Sigmoid_54_199_Mul_Mul_55_193:out0 type: asymmetric_affine
+D Real output shape: (100, 40, 40, 64)
+D Process Conv_Conv_56_201 ...
+D RKNN output shape(convolution): (100 40 40 64)
+D Tensor @Conv_Conv_56_201:out0 type: asymmetric_affine
+D Real output shape: (100, 40, 40, 64)
+D Process Sigmoid_Sigmoid_57_200_Mul_Mul_58_197 ...
+D RKNN output shape(swish): (100 40 40 64)
+D Tensor @Sigmoid_Sigmoid_57_200_Mul_Mul_58_197:out0 type: asymmetric_affine
+D Real output shape: (100, 40, 40, 64)
+D Process Conv_Conv_59_196 ...
+D RKNN output shape(convolution): (100 40 40 64)
+D Tensor @Conv_Conv_59_196:out0 type: asymmetric_affine
+D Real output shape: (100, 40, 40, 64)
+D Process Sigmoid_Sigmoid_60_195_Mul_Mul_61_194 ...
+D RKNN output shape(swish): (100 40 40 64)
+D Tensor @Sigmoid_Sigmoid_60_195_Mul_Mul_61_194:out0 type: asymmetric_affine
+D Real output shape: (100, 40, 40, 64)
+D Process Add_Add_62_179 ...
+D RKNN output shape(add): (100 40 40 64)
+D Tensor @Add_Add_62_179:out0 type: asymmetric_affine
+D Real output shape: (100, 40, 40, 64)
+D Process Conv_Conv_63_192 ...
+D RKNN output shape(convolution): (100 40 40 64)
+D Tensor @Conv_Conv_63_192:out0 type: asymmetric_affine
+D Real output shape: (100, 40, 40, 64)
+D Process Sigmoid_Sigmoid_64_190_Mul_Mul_65_184 ...
+D RKNN output shape(swish): (100 40 40 64)
+D Tensor @Sigmoid_Sigmoid_64_190_Mul_Mul_65_184:out0 type: asymmetric_affine
+D Real output shape: (100, 40, 40, 64)
+D Process Conv_Conv_66_183 ...
+D RKNN output shape(convolution): (100 40 40 64)
+D Tensor @Conv_Conv_66_183:out0 type: asymmetric_affine
+D Real output shape: (100, 40, 40, 64)
+D Process Sigmoid_Sigmoid_67_182_Mul_Mul_68_180 ...
+D RKNN output shape(swish): (100 40 40 64)
+D Tensor @Sigmoid_Sigmoid_67_182_Mul_Mul_68_180:out0 type: asymmetric_affine
+D Real output shape: (100, 40, 40, 64)
+D Process Add_Add_69_162 ...
+D RKNN output shape(add): (100 40 40 64)
+D Tensor @Add_Add_69_162:out0 type: asymmetric_affine
+D Real output shape: (100, 40, 40, 64)
+D Process Conv_Conv_70_181 ...
+D RKNN output shape(convolution): (100 40 40 64)
+D Tensor @Conv_Conv_70_181:out0 type: asymmetric_affine
+D Real output shape: (100, 40, 40, 64)
+D Process Sigmoid_Sigmoid_71_166_Mul_Mul_72_165 ...
+D RKNN output shape(swish): (100 40 40 64)
+D Tensor @Sigmoid_Sigmoid_71_166_Mul_Mul_72_165:out0 type: asymmetric_affine
+D Real output shape: (100, 40, 40, 64)
+D Process Conv_Conv_73_163 ...
+D RKNN output shape(convolution): (100 40 40 64)
+D Tensor @Conv_Conv_73_163:out0 type: asymmetric_affine
+D Real output shape: (100, 40, 40, 64)
+D Process Sigmoid_Sigmoid_74_164_Mul_Mul_75_150 ...
+D RKNN output shape(swish): (100 40 40 64)
+D Tensor @Sigmoid_Sigmoid_74_164_Mul_Mul_75_150:out0 type: asymmetric_affine
+D Real output shape: (100, 40, 40, 64)
+D Process Add_Add_76_149 ...
+D RKNN output shape(add): (100 40 40 64)
+D Tensor @Add_Add_76_149:out0 type: asymmetric_affine
+D Real output shape: (100, 40, 40, 64)
+D Process Conv_Conv_77_138 ...
+D RKNN output shape(convolution): (100 40 40 64)
+D Tensor @Conv_Conv_77_138:out0 type: asymmetric_affine
+D Real output shape: (100, 40, 40, 64)
+D Process Sigmoid_Sigmoid_78_137_Mul_Mul_79_136 ...
+D RKNN output shape(swish): (100 40 40 64)
+D Tensor @Sigmoid_Sigmoid_78_137_Mul_Mul_79_136:out0 type: asymmetric_affine
+D Real output shape: (100, 40, 40, 64)
+D Process Concat_Concat_80_135 ...
+D RKNN output shape(concat): (100 40 40 128)
+D Tensor @Concat_Concat_80_135:out0 type: asymmetric_affine
+D Real output shape: (100, 40, 40, 128)
+D Process Conv_Conv_81_120 ...
+D RKNN output shape(convolution): (100 40 40 128)
+D Tensor @Conv_Conv_81_120:out0 type: asymmetric_affine
+D Real output shape: (100, 40, 40, 128)
+D Process Sigmoid_Sigmoid_82_121_Mul_Mul_83_108 ...
+D RKNN output shape(swish): (100 40 40 128)
+D Tensor @Sigmoid_Sigmoid_82_121_Mul_Mul_83_108:out0 type: asymmetric_affine
+D Real output shape: (100, 40, 40, 128)
+D Process Conv_Conv_84_160 ...
+D RKNN output shape(convolution): (100 20 20 256)
+D Tensor @Conv_Conv_84_160:out0 type: asymmetric_affine
+D Real output shape: (100, 20, 20, 256)
+D Process Sigmoid_Sigmoid_85_161_Mul_Mul_86_148 ...
+D RKNN output shape(swish): (100 20 20 256)
+D Tensor @Sigmoid_Sigmoid_85_161_Mul_Mul_86_148:out0 type: asymmetric_affine
+D Real output shape: (100, 20, 20, 256)
+D Process Conv_Conv_87_173 ...
+D RKNN output shape(convolution): (100 20 20 128)
+D Tensor @Conv_Conv_87_173:out0 type: asymmetric_affine
+D Real output shape: (100, 20, 20, 128)
+D Process Sigmoid_Sigmoid_88_174_Mul_Mul_89_158 ...
+D RKNN output shape(swish): (100 20 20 128)
+D Tensor @Sigmoid_Sigmoid_88_174_Mul_Mul_89_158:out0 type: asymmetric_affine
+D Real output shape: (100, 20, 20, 128)
+D Process Conv_Conv_90_191 ...
+D RKNN output shape(convolution): (100 20 20 128)
+D Tensor @Conv_Conv_90_191:out0 type: asymmetric_affine
+D Real output shape: (100, 20, 20, 128)
+D Process Sigmoid_Sigmoid_91_178_Mul_Mul_92_177 ...
+D RKNN output shape(swish): (100 20 20 128)
+D Tensor @Sigmoid_Sigmoid_91_178_Mul_Mul_92_177:out0 type: asymmetric_affine
+D Real output shape: (100, 20, 20, 128)
+D Process Conv_Conv_93_175 ...
+D RKNN output shape(convolution): (100 20 20 128)
+D Tensor @Conv_Conv_93_175:out0 type: asymmetric_affine
+D Real output shape: (100, 20, 20, 128)
+D Process Sigmoid_Sigmoid_94_176_Mul_Mul_95_159 ...
+D RKNN output shape(swish): (100 20 20 128)
+D Tensor @Sigmoid_Sigmoid_94_176_Mul_Mul_95_159:out0 type: asymmetric_affine
+D Real output shape: (100, 20, 20, 128)
+D Process Add_Add_96_144 ...
+D RKNN output shape(add): (100 20 20 128)
+D Tensor @Add_Add_96_144:out0 type: asymmetric_affine
+D Real output shape: (100, 20, 20, 128)
+D Process Conv_Conv_97_145 ...
+D RKNN output shape(convolution): (100 20 20 128)
+D Tensor @Conv_Conv_97_145:out0 type: asymmetric_affine
+D Real output shape: (100, 20, 20, 128)
+D Process Sigmoid_Sigmoid_98_146_Mul_Mul_99_131 ...
+D RKNN output shape(swish): (100 20 20 128)
+D Tensor @Sigmoid_Sigmoid_98_146_Mul_Mul_99_131:out0 type: asymmetric_affine
+D Real output shape: (100, 20, 20, 128)
+D Process Concat_Concat_100_130 ...
+D RKNN output shape(concat): (100 20 20 256)
+D Tensor @Concat_Concat_100_130:out0 type: asymmetric_affine
+D Real output shape: (100, 20, 20, 256)
+D Process Conv_Conv_101_115 ...
+D RKNN output shape(convolution): (100 20 20 256)
+D Tensor @Conv_Conv_101_115:out0 type: asymmetric_affine
+D Real output shape: (100, 20, 20, 256)
+D Process Sigmoid_Sigmoid_102_116_Mul_Mul_103_104 ...
+D RKNN output shape(swish): (100 20 20 256)
+D Tensor @Sigmoid_Sigmoid_102_116_Mul_Mul_103_104:out0 type: asymmetric_affine
+D Real output shape: (100, 20, 20, 256)
+D Process Conv_Conv_104_94 ...
+D RKNN output shape(convolution): (100 20 20 128)
+D Tensor @Conv_Conv_104_94:out0 type: asymmetric_affine
+D Real output shape: (100, 20, 20, 128)
+D Process Sigmoid_Sigmoid_105_93_Mul_Mul_106_91 ...
+D RKNN output shape(swish): (100 20 20 128)
+D Tensor @Sigmoid_Sigmoid_105_93_Mul_Mul_106_91:out0 type: asymmetric_affine
+D Real output shape: (100, 20, 20, 128)
+D Process MaxPool_MaxPool_107_92 ...
+D RKNN output shape(pooling): (100 20 20 128)
+D Tensor @MaxPool_MaxPool_107_92:out0 type: float32
+D Real output shape: (100, 20, 20, 128)
+D Process MaxPool_MaxPool_108_83 ...
+D RKNN output shape(pooling): (100 20 20 128)
+D Tensor @MaxPool_MaxPool_108_83:out0 type: float32
+D Real output shape: (100, 20, 20, 128)
+D Process MaxPool_MaxPool_109_82 ...
+D RKNN output shape(pooling): (100 20 20 128)
+D Tensor @MaxPool_MaxPool_109_82:out0 type: float32
+D Real output shape: (100, 20, 20, 128)
+D Process Concat_Concat_110_79 ...
+D RKNN output shape(concat): (100 20 20 512)
+D Tensor @Concat_Concat_110_79:out0 type: asymmetric_affine
+D Real output shape: (100, 20, 20, 512)
+D Process Conv_Conv_111_78 ...
+D RKNN output shape(convolution): (100 20 20 256)
+D Tensor @Conv_Conv_111_78:out0 type: asymmetric_affine
+D Real output shape: (100, 20, 20, 256)
+D Process Sigmoid_Sigmoid_112_62_Mul_Mul_113_61 ...
+D RKNN output shape(swish): (100 20 20 256)
+D Tensor @Sigmoid_Sigmoid_112_62_Mul_Mul_113_61:out0 type: asymmetric_affine
+D Real output shape: (100, 20, 20, 256)
+D Process Conv_Conv_114_45 ...
+D RKNN output shape(convolution): (100 20 20 128)
+D Tensor @Conv_Conv_114_45:out0 type: asymmetric_affine
+D Real output shape: (100, 20, 20, 128)
+D Process Sigmoid_Sigmoid_115_46_Mul_Mul_116_33 ...
+D RKNN output shape(swish): (100 20 20 128)
+D Tensor @Sigmoid_Sigmoid_115_46_Mul_Mul_116_33:out0 type: asymmetric_affine
+D Real output shape: (100, 20, 20, 128)
+D Process Resize_Resize_118_119 ...
+D RKNN output shape(image_resize): (100 40 40 128)
+D Tensor @Resize_Resize_118_119:out0 type: float32
+D Real output shape: (100, 40, 40, 128)
+D Process Concat_Concat_119_107 ...
+D RKNN output shape(concat): (100 40 40 256)
+D Tensor @Concat_Concat_119_107:out0 type: asymmetric_affine
+D Real output shape: (100, 40, 40, 256)
+D Process Conv_Conv_120_147 ...
+D RKNN output shape(convolution): (100 40 40 64)
+D Tensor @Conv_Conv_120_147:out0 type: asymmetric_affine
+D Real output shape: (100, 40, 40, 64)
+D Process Sigmoid_Sigmoid_121_134_Mul_Mul_122_133 ...
+D RKNN output shape(swish): (100 40 40 64)
+D Tensor @Sigmoid_Sigmoid_121_134_Mul_Mul_122_133:out0 type: asymmetric_affine
+D Real output shape: (100, 40, 40, 64)
+D Process Conv_Conv_123_132 ...
+D RKNN output shape(convolution): (100 40 40 64)
+D Tensor @Conv_Conv_123_132:out0 type: asymmetric_affine
+D Real output shape: (100, 40, 40, 64)
+D Process Sigmoid_Sigmoid_124_118_Mul_Mul_125_117 ...
+D RKNN output shape(swish): (100 40 40 64)
+D Tensor @Sigmoid_Sigmoid_124_118_Mul_Mul_125_117:out0 type: asymmetric_affine
+D Real output shape: (100, 40, 40, 64)
+D Process Conv_Conv_126_105 ...
+D RKNN output shape(convolution): (100 40 40 64)
+D Tensor @Conv_Conv_126_105:out0 type: asymmetric_affine
+D Real output shape: (100, 40, 40, 64)
+D Process Sigmoid_Sigmoid_127_106_Mul_Mul_128_95 ...
+D RKNN output shape(swish): (100 40 40 64)
+D Tensor @Sigmoid_Sigmoid_127_106_Mul_Mul_128_95:out0 type: asymmetric_affine
+D Real output shape: (100, 40, 40, 64)
+D Process Conv_Conv_129_96 ...
+D RKNN output shape(convolution): (100 40 40 64)
+D Tensor @Conv_Conv_129_96:out0 type: asymmetric_affine
+D Real output shape: (100, 40, 40, 64)
+D Process Sigmoid_Sigmoid_130_97_Mul_Mul_131_87 ...
+D RKNN output shape(swish): (100 40 40 64)
+D Tensor @Sigmoid_Sigmoid_130_97_Mul_Mul_131_87:out0 type: asymmetric_affine
+D Real output shape: (100, 40, 40, 64)
+D Process Concat_Concat_132_85 ...
+D RKNN output shape(concat): (100 40 40 128)
+D Tensor @Concat_Concat_132_85:out0 type: asymmetric_affine
+D Real output shape: (100, 40, 40, 128)
+D Process Conv_Conv_133_84 ...
+D RKNN output shape(convolution): (100 40 40 128)
+D Tensor @Conv_Conv_133_84:out0 type: asymmetric_affine
+D Real output shape: (100, 40, 40, 128)
+D Process Sigmoid_Sigmoid_134_68_Mul_Mul_135_67 ...
+D RKNN output shape(swish): (100 40 40 128)
+D Tensor @Sigmoid_Sigmoid_134_68_Mul_Mul_135_67:out0 type: asymmetric_affine
+D Real output shape: (100, 40, 40, 128)
+D Process Conv_Conv_136_50 ...
+D RKNN output shape(convolution): (100 40 40 64)
+D Tensor @Conv_Conv_136_50:out0 type: asymmetric_affine
+D Real output shape: (100, 40, 40, 64)
+D Process Sigmoid_Sigmoid_137_51_Mul_Mul_138_37 ...
+D RKNN output shape(swish): (100 40 40 64)
+D Tensor @Sigmoid_Sigmoid_137_51_Mul_Mul_138_37:out0 type: asymmetric_affine
+D Real output shape: (100, 40, 40, 64)
+D Process Resize_Resize_140_54 ...
+D RKNN output shape(image_resize): (100 80 80 64)
+D Tensor @Resize_Resize_140_54:out0 type: float32
+D Real output shape: (100, 80, 80, 64)
+D Process Concat_Concat_141_40 ...
+D RKNN output shape(concat): (100 80 80 128)
+D Tensor @Concat_Concat_141_40:out0 type: asymmetric_affine
+D Real output shape: (100, 80, 80, 128)
+D Process Conv_Conv_142_86 ...
+D RKNN output shape(convolution): (100 80 80 32)
+D Tensor @Conv_Conv_142_86:out0 type: asymmetric_affine
+D Real output shape: (100, 80, 80, 32)
+D Process Sigmoid_Sigmoid_143_71_Mul_Mul_144_70 ...
+D RKNN output shape(swish): (100 80 80 32)
+D Tensor @Sigmoid_Sigmoid_143_71_Mul_Mul_144_70:out0 type: asymmetric_affine
+D Real output shape: (100, 80, 80, 32)
+D Process Conv_Conv_145_69 ...
+D RKNN output shape(convolution): (100 80 80 32)
+D Tensor @Conv_Conv_145_69:out0 type: asymmetric_affine
+D Real output shape: (100, 80, 80, 32)
+D Process Sigmoid_Sigmoid_146_53_Mul_Mul_147_52 ...
+D RKNN output shape(swish): (100 80 80 32)
+D Tensor @Sigmoid_Sigmoid_146_53_Mul_Mul_147_52:out0 type: asymmetric_affine
+D Real output shape: (100, 80, 80, 32)
+D Process Conv_Conv_148_38 ...
+D RKNN output shape(convolution): (100 80 80 32)
+D Tensor @Conv_Conv_148_38:out0 type: asymmetric_affine
+D Real output shape: (100, 80, 80, 32)
+D Process Sigmoid_Sigmoid_149_39_Mul_Mul_150_27 ...
+D RKNN output shape(swish): (100 80 80 32)
+D Tensor @Sigmoid_Sigmoid_149_39_Mul_Mul_150_27:out0 type: asymmetric_affine
+D Real output shape: (100, 80, 80, 32)
+D Process Conv_Conv_151_28 ...
+D RKNN output shape(convolution): (100 80 80 32)
+D Tensor @Conv_Conv_151_28:out0 type: asymmetric_affine
+D Real output shape: (100, 80, 80, 32)
+D Process Sigmoid_Sigmoid_152_29_Mul_Mul_153_20 ...
+D RKNN output shape(swish): (100 80 80 32)
+D Tensor @Sigmoid_Sigmoid_152_29_Mul_Mul_153_20:out0 type: asymmetric_affine
+D Real output shape: (100, 80, 80, 32)
+D Process Concat_Concat_154_19 ...
+D RKNN output shape(concat): (100 80 80 64)
+D Tensor @Concat_Concat_154_19:out0 type: asymmetric_affine
+D Real output shape: (100, 80, 80, 64)
+D Process Conv_Conv_155_13 ...
+D RKNN output shape(convolution): (100 80 80 64)
+D Tensor @Conv_Conv_155_13:out0 type: asymmetric_affine
+D Real output shape: (100, 80, 80, 64)
+D Process Sigmoid_Sigmoid_156_14_Mul_Mul_157_8 ...
+D RKNN output shape(swish): (100 80 80 64)
+D Tensor @Sigmoid_Sigmoid_156_14_Mul_Mul_157_8:out0 type: asymmetric_affine
+D Real output shape: (100, 80, 80, 64)
+D Process Conv_Conv_198_5 ...
+D RKNN output shape(convolution): (100 80 80 33)
+D Tensor @Conv_Conv_198_5:out0 type: asymmetric_affine
+D Real output shape: (100, 80, 80, 33)
+D Process attach_Conv_Conv_198/out0_0 ...
+D RKNN output shape(output): (100 80 80 33)
+D Tensor @attach_Conv_Conv_198/out0_0:out0 type: float32
+D Real output shape: (100, 80, 80, 33)
+D Process Conv_Conv_158_65 ...
+D RKNN output shape(convolution): (100 40 40 64)
+D Tensor @Conv_Conv_158_65:out0 type: asymmetric_affine
+D Real output shape: (100, 40, 40, 64)
+D Process Sigmoid_Sigmoid_159_66_Mul_Mul_160_49 ...
+D RKNN output shape(swish): (100 40 40 64)
+D Tensor @Sigmoid_Sigmoid_159_66_Mul_Mul_160_49:out0 type: asymmetric_affine
+D Real output shape: (100, 40, 40, 64)
+D Process Concat_Concat_161_36 ...
+D RKNN output shape(concat): (100 40 40 128)
+D Tensor @Concat_Concat_161_36:out0 type: asymmetric_affine
+D Real output shape: (100, 40, 40, 128)
+D Process Conv_Conv_162_80 ...
+D RKNN output shape(convolution): (100 40 40 64)
+D Tensor @Conv_Conv_162_80:out0 type: asymmetric_affine
+D Real output shape: (100, 40, 40, 64)
+D Process Sigmoid_Sigmoid_163_81_Mul_Mul_164_64 ...
+D RKNN output shape(swish): (100 40 40 64)
+D Tensor @Sigmoid_Sigmoid_163_81_Mul_Mul_164_64:out0 type: asymmetric_affine
+D Real output shape: (100, 40, 40, 64)
+D Process Conv_Conv_165_63 ...
+D RKNN output shape(convolution): (100 40 40 64)
+D Tensor @Conv_Conv_165_63:out0 type: asymmetric_affine
+D Real output shape: (100, 40, 40, 64)
+D Process Sigmoid_Sigmoid_166_48_Mul_Mul_167_47 ...
+D RKNN output shape(swish): (100 40 40 64)
+D Tensor @Sigmoid_Sigmoid_166_48_Mul_Mul_167_47:out0 type: asymmetric_affine
+D Real output shape: (100, 40, 40, 64)
+D Process Conv_Conv_168_34 ...
+D RKNN output shape(convolution): (100 40 40 64)
+D Tensor @Conv_Conv_168_34:out0 type: asymmetric_affine
+D Real output shape: (100, 40, 40, 64)
+D Process Sigmoid_Sigmoid_169_35_Mul_Mul_170_24 ...
+D RKNN output shape(swish): (100 40 40 64)
+D Tensor @Sigmoid_Sigmoid_169_35_Mul_Mul_170_24:out0 type: asymmetric_affine
+D Real output shape: (100, 40, 40, 64)
+D Process Conv_Conv_171_25 ...
+D RKNN output shape(convolution): (100 40 40 64)
+D Tensor @Conv_Conv_171_25:out0 type: asymmetric_affine
+D Real output shape: (100, 40, 40, 64)
+D Process Sigmoid_Sigmoid_172_26_Mul_Mul_173_18 ...
+D RKNN output shape(swish): (100 40 40 64)
+D Tensor @Sigmoid_Sigmoid_172_26_Mul_Mul_173_18:out0 type: asymmetric_affine
+D Real output shape: (100, 40, 40, 64)
+D Process Concat_Concat_174_17 ...
+D RKNN output shape(concat): (100 40 40 128)
+D Tensor @Concat_Concat_174_17:out0 type: asymmetric_affine
+D Real output shape: (100, 40, 40, 128)
+D Process Conv_Conv_175_11 ...
+D RKNN output shape(convolution): (100 40 40 128)
+D Tensor @Conv_Conv_175_11:out0 type: asymmetric_affine
+D Real output shape: (100, 40, 40, 128)
+D Process Sigmoid_Sigmoid_176_12_Mul_Mul_177_7 ...
+D RKNN output shape(swish): (100 40 40 128)
+D Tensor @Sigmoid_Sigmoid_176_12_Mul_Mul_177_7:out0 type: asymmetric_affine
+D Real output shape: (100, 40, 40, 128)
+D Process Conv_Conv_247_4 ...
+D RKNN output shape(convolution): (100 40 40 33)
+D Tensor @Conv_Conv_247_4:out0 type: asymmetric_affine
+D Real output shape: (100, 40, 40, 33)
+D Process attach_Conv_Conv_247/out0_1 ...
+D RKNN output shape(output): (100 40 40 33)
+D Tensor @attach_Conv_Conv_247/out0_1:out0 type: float32
+D Real output shape: (100, 40, 40, 33)
+D Process Conv_Conv_178_59 ...
+D RKNN output shape(convolution): (100 20 20 128)
+D Tensor @Conv_Conv_178_59:out0 type: asymmetric_affine
+D Real output shape: (100, 20, 20, 128)
+D Process Sigmoid_Sigmoid_179_60_Mul_Mul_180_44 ...
+D RKNN output shape(swish): (100 20 20 128)
+D Tensor @Sigmoid_Sigmoid_179_60_Mul_Mul_180_44:out0 type: asymmetric_affine
+D Real output shape: (100, 20, 20, 128)
+D Process Concat_Concat_181_32 ...
+D RKNN output shape(concat): (100 20 20 256)
+D Tensor @Concat_Concat_181_32:out0 type: asymmetric_affine
+D Real output shape: (100, 20, 20, 256)
+D Process Conv_Conv_182_74 ...
+D RKNN output shape(convolution): (100 20 20 128)
+D Tensor @Conv_Conv_182_74:out0 type: asymmetric_affine
+D Real output shape: (100, 20, 20, 128)
+D Process Sigmoid_Sigmoid_183_75_Mul_Mul_184_58 ...
+D RKNN output shape(swish): (100 20 20 128)
+D Tensor @Sigmoid_Sigmoid_183_75_Mul_Mul_184_58:out0 type: asymmetric_affine
+D Real output shape: (100, 20, 20, 128)
+D Process Conv_Conv_185_57 ...
+D RKNN output shape(convolution): (100 20 20 128)
+D Tensor @Conv_Conv_185_57:out0 type: asymmetric_affine
+D Real output shape: (100, 20, 20, 128)
+D Process Sigmoid_Sigmoid_186_43_Mul_Mul_187_42 ...
+D RKNN output shape(swish): (100 20 20 128)
+D Tensor @Sigmoid_Sigmoid_186_43_Mul_Mul_187_42:out0 type: asymmetric_affine
+D Real output shape: (100, 20, 20, 128)
+D Process Conv_Conv_188_30 ...
+D RKNN output shape(convolution): (100 20 20 128)
+D Tensor @Conv_Conv_188_30:out0 type: asymmetric_affine
+D Real output shape: (100, 20, 20, 128)
+D Process Sigmoid_Sigmoid_189_31_Mul_Mul_190_21 ...
+D RKNN output shape(swish): (100 20 20 128)
+D Tensor @Sigmoid_Sigmoid_189_31_Mul_Mul_190_21:out0 type: asymmetric_affine
+D Real output shape: (100, 20, 20, 128)
+D Process Conv_Conv_191_22 ...
+D RKNN output shape(convolution): (100 20 20 128)
+D Tensor @Conv_Conv_191_22:out0 type: asymmetric_affine
+D Real output shape: (100, 20, 20, 128)
+D Process Sigmoid_Sigmoid_192_23_Mul_Mul_193_16 ...
+D RKNN output shape(swish): (100 20 20 128)
+D Tensor @Sigmoid_Sigmoid_192_23_Mul_Mul_193_16:out0 type: asymmetric_affine
+D Real output shape: (100, 20, 20, 128)
+D Process Concat_Concat_194_15 ...
+D RKNN output shape(concat): (100 20 20 256)
+D Tensor @Concat_Concat_194_15:out0 type: asymmetric_affine
+D Real output shape: (100, 20, 20, 256)
+D Process Conv_Conv_195_9 ...
+D RKNN output shape(convolution): (100 20 20 256)
+D Tensor @Conv_Conv_195_9:out0 type: asymmetric_affine
+D Real output shape: (100, 20, 20, 256)
+D Process Sigmoid_Sigmoid_196_10_Mul_Mul_197_6 ...
+D RKNN output shape(swish): (100 20 20 256)
+D Tensor @Sigmoid_Sigmoid_196_10_Mul_Mul_197_6:out0 type: asymmetric_affine
+D Real output shape: (100, 20, 20, 256)
+D Process Conv_Conv_296_3 ...
+D RKNN output shape(convolution): (100 20 20 33)
+D Tensor @Conv_Conv_296_3:out0 type: asymmetric_affine
+D Real output shape: (100, 20, 20, 33)
+D Process attach_Conv_Conv_296/out0_2 ...
+D RKNN output shape(output): (100 20 20 33)
+D Tensor @attach_Conv_Conv_296/out0_2:out0 type: float32
+D Real output shape: (100, 20, 20, 33)
+I Build torch-jit-export complete.
+I Analyze activation range of layer: Conv_Conv_0_187
+I Analyze activation range of layer: Sigmoid_Sigmoid_1_188_Mul_Mul_2_172
+I Analyze activation range of layer: Conv_Conv_3_171
+I Analyze activation range of layer: Sigmoid_Sigmoid_4_157_Mul_Mul_5_156
+I Analyze activation range of layer: Conv_Conv_16_142
+I Analyze activation range of layer: Conv_Conv_6_167
+I Analyze activation range of layer: Sigmoid_Sigmoid_17_143_Mul_Mul_18_129
+I Analyze activation range of layer: Sigmoid_Sigmoid_7_168_Mul_Mul_8_154
+I Analyze activation range of layer: Conv_Conv_9_189
+I Analyze activation range of layer: Sigmoid_Sigmoid_10_186_Mul_Mul_11_185
+I Analyze activation range of layer: Conv_Conv_12_169
+I Analyze activation range of layer: Sigmoid_Sigmoid_13_170_Mul_Mul_14_155
+I Analyze activation range of layer: Add_Add_15_141
+I Analyze activation range of layer: Concat_Concat_19_128
+I Analyze activation range of layer: Conv_Conv_20_113
+I Analyze activation range of layer: Sigmoid_Sigmoid_21_114_Mul_Mul_22_103
+I Analyze activation range of layer: Conv_Conv_23_101
+I Analyze activation range of layer: Sigmoid_Sigmoid_24_102_Mul_Mul_25_90
+I Analyze activation range of layer: Conv_Conv_43_77
+I Analyze activation range of layer: Conv_Conv_26_122
+I Analyze activation range of layer: Sigmoid_Sigmoid_44_76_Mul_Mul_45_73
+I Analyze activation range of layer: Sigmoid_Sigmoid_27_123_Mul_Mul_28_109
+I Analyze activation range of layer: Conv_Conv_29_139
+I Analyze activation range of layer: Sigmoid_Sigmoid_30_140_Mul_Mul_31_127
+I Analyze activation range of layer: Conv_Conv_32_124
+I Analyze activation range of layer: Sigmoid_Sigmoid_33_125_Mul_Mul_34_110
+I Analyze activation range of layer: Add_Add_35_98
+I Analyze activation range of layer: Conv_Conv_36_126
+I Analyze activation range of layer: Sigmoid_Sigmoid_37_112_Mul_Mul_38_111
+I Analyze activation range of layer: Conv_Conv_39_99
+I Analyze activation range of layer: Sigmoid_Sigmoid_40_100_Mul_Mul_41_89
+I Analyze activation range of layer: Add_Add_42_88
+I Analyze activation range of layer: Concat_Concat_46_72
+I Analyze activation range of layer: Conv_Conv_47_55
+I Analyze activation range of layer: Sigmoid_Sigmoid_48_56_Mul_Mul_49_41
+I Analyze activation range of layer: Conv_Conv_50_153
+I Analyze activation range of layer: Sigmoid_Sigmoid_51_152_Mul_Mul_52_151
+I Analyze activation range of layer: Conv_Conv_77_138
+I Analyze activation range of layer: Conv_Conv_53_198
+I Analyze activation range of layer: Sigmoid_Sigmoid_78_137_Mul_Mul_79_136
+I Analyze activation range of layer: Sigmoid_Sigmoid_54_199_Mul_Mul_55_193
+I Analyze activation range of layer: Conv_Conv_56_201
+I Analyze activation range of layer: Sigmoid_Sigmoid_57_200_Mul_Mul_58_197
+I Analyze activation range of layer: Conv_Conv_59_196
+I Analyze activation range of layer: Sigmoid_Sigmoid_60_195_Mul_Mul_61_194
+I Analyze activation range of layer: Add_Add_62_179
+I Analyze activation range of layer: Conv_Conv_63_192
+I Analyze activation range of layer: Sigmoid_Sigmoid_64_190_Mul_Mul_65_184
+I Analyze activation range of layer: Conv_Conv_66_183
+I Analyze activation range of layer: Sigmoid_Sigmoid_67_182_Mul_Mul_68_180
+I Analyze activation range of layer: Add_Add_69_162
+I Analyze activation range of layer: Conv_Conv_70_181
+I Analyze activation range of layer: Sigmoid_Sigmoid_71_166_Mul_Mul_72_165
+I Analyze activation range of layer: Conv_Conv_73_163
+I Analyze activation range of layer: Sigmoid_Sigmoid_74_164_Mul_Mul_75_150
+I Analyze activation range of layer: Add_Add_76_149
+I Analyze activation range of layer: Concat_Concat_80_135
+I Analyze activation range of layer: Conv_Conv_81_120
+I Analyze activation range of layer: Sigmoid_Sigmoid_82_121_Mul_Mul_83_108
+I Analyze activation range of layer: Conv_Conv_84_160
+I Analyze activation range of layer: Sigmoid_Sigmoid_85_161_Mul_Mul_86_148
+I Analyze activation range of layer: Conv_Conv_97_145
+I Analyze activation range of layer: Conv_Conv_87_173
+I Analyze activation range of layer: Sigmoid_Sigmoid_98_146_Mul_Mul_99_131
+I Analyze activation range of layer: Sigmoid_Sigmoid_88_174_Mul_Mul_89_158
+I Analyze activation range of layer: Conv_Conv_90_191
+I Analyze activation range of layer: Sigmoid_Sigmoid_91_178_Mul_Mul_92_177
+I Analyze activation range of layer: Conv_Conv_93_175
+I Analyze activation range of layer: Sigmoid_Sigmoid_94_176_Mul_Mul_95_159
+I Analyze activation range of layer: Add_Add_96_144
+I Analyze activation range of layer: Concat_Concat_100_130
+I Analyze activation range of layer: Conv_Conv_101_115
+I Analyze activation range of layer: Sigmoid_Sigmoid_102_116_Mul_Mul_103_104
+I Analyze activation range of layer: Conv_Conv_104_94
+I Analyze activation range of layer: Sigmoid_Sigmoid_105_93_Mul_Mul_106_91
+I Analyze activation range of layer: MaxPool_MaxPool_107_92
+I Analyze activation range of layer: MaxPool_MaxPool_108_83
+I Analyze activation range of layer: MaxPool_MaxPool_109_82
+I Analyze activation range of layer: Concat_Concat_110_79
+I Analyze activation range of layer: Conv_Conv_111_78
+I Analyze activation range of layer: Sigmoid_Sigmoid_112_62_Mul_Mul_113_61
+I Analyze activation range of layer: Conv_Conv_114_45
+I Analyze activation range of layer: Sigmoid_Sigmoid_115_46_Mul_Mul_116_33
+I Analyze activation range of layer: Resize_Resize_118_119
+I Analyze activation range of layer: Concat_Concat_119_107
+I Analyze activation range of layer: Conv_Conv_129_96
+I Analyze activation range of layer: Conv_Conv_120_147
+I Analyze activation range of layer: Sigmoid_Sigmoid_130_97_Mul_Mul_131_87
+I Analyze activation range of layer: Sigmoid_Sigmoid_121_134_Mul_Mul_122_133
+I Analyze activation range of layer: Conv_Conv_123_132
+I Analyze activation range of layer: Sigmoid_Sigmoid_124_118_Mul_Mul_125_117
+I Analyze activation range of layer: Conv_Conv_126_105
+I Analyze activation range of layer: Sigmoid_Sigmoid_127_106_Mul_Mul_128_95
+I Analyze activation range of layer: Concat_Concat_132_85
+I Analyze activation range of layer: Conv_Conv_133_84
+I Analyze activation range of layer: Sigmoid_Sigmoid_134_68_Mul_Mul_135_67
+I Analyze activation range of layer: Conv_Conv_136_50
+I Analyze activation range of layer: Sigmoid_Sigmoid_137_51_Mul_Mul_138_37
+I Analyze activation range of layer: Resize_Resize_140_54
+I Analyze activation range of layer: Concat_Concat_141_40
+I Analyze activation range of layer: Conv_Conv_151_28
+I Analyze activation range of layer: Conv_Conv_142_86
+I Analyze activation range of layer: Sigmoid_Sigmoid_152_29_Mul_Mul_153_20
+I Analyze activation range of layer: Sigmoid_Sigmoid_143_71_Mul_Mul_144_70
+I Analyze activation range of layer: Conv_Conv_145_69
+I Analyze activation range of layer: Sigmoid_Sigmoid_146_53_Mul_Mul_147_52
+I Analyze activation range of layer: Conv_Conv_148_38
+I Analyze activation range of layer: Sigmoid_Sigmoid_149_39_Mul_Mul_150_27
+I Analyze activation range of layer: Concat_Concat_154_19
+I Analyze activation range of layer: Conv_Conv_155_13
+I Analyze activation range of layer: Sigmoid_Sigmoid_156_14_Mul_Mul_157_8
+I Analyze activation range of layer: Conv_Conv_198_5
+I Analyze activation range of layer: Conv_Conv_158_65
+I Analyze activation range of layer: attach_Conv_Conv_198/out0_0
+I Analyze activation range of layer: Sigmoid_Sigmoid_159_66_Mul_Mul_160_49
+I Analyze activation range of layer: Concat_Concat_161_36
+I Analyze activation range of layer: Conv_Conv_171_25
+I Analyze activation range of layer: Conv_Conv_162_80
+I Analyze activation range of layer: Sigmoid_Sigmoid_172_26_Mul_Mul_173_18
+I Analyze activation range of layer: Sigmoid_Sigmoid_163_81_Mul_Mul_164_64
+I Analyze activation range of layer: Conv_Conv_165_63
+I Analyze activation range of layer: Sigmoid_Sigmoid_166_48_Mul_Mul_167_47
+I Analyze activation range of layer: Conv_Conv_168_34
+I Analyze activation range of layer: Sigmoid_Sigmoid_169_35_Mul_Mul_170_24
+I Analyze activation range of layer: Concat_Concat_174_17
+I Analyze activation range of layer: Conv_Conv_175_11
+I Analyze activation range of layer: Sigmoid_Sigmoid_176_12_Mul_Mul_177_7
+I Analyze activation range of layer: Conv_Conv_247_4
+I Analyze activation range of layer: Conv_Conv_178_59
+I Analyze activation range of layer: attach_Conv_Conv_247/out0_1
+I Analyze activation range of layer: Sigmoid_Sigmoid_179_60_Mul_Mul_180_44
+I Analyze activation range of layer: Concat_Concat_181_32
+I Analyze activation range of layer: Conv_Conv_191_22
+I Analyze activation range of layer: Conv_Conv_182_74
+I Analyze activation range of layer: Sigmoid_Sigmoid_192_23_Mul_Mul_193_16
+I Analyze activation range of layer: Sigmoid_Sigmoid_183_75_Mul_Mul_184_58
+I Analyze activation range of layer: Conv_Conv_185_57
+I Analyze activation range of layer: Sigmoid_Sigmoid_186_43_Mul_Mul_187_42
+I Analyze activation range of layer: Conv_Conv_188_30
+I Analyze activation range of layer: Sigmoid_Sigmoid_189_31_Mul_Mul_190_21
+I Analyze activation range of layer: Concat_Concat_194_15
+I Analyze activation range of layer: Conv_Conv_195_9
+I Analyze activation range of layer: Sigmoid_Sigmoid_196_10_Mul_Mul_197_6
+I Analyze activation range of layer: Conv_Conv_296_3
+I Analyze activation range of layer: attach_Conv_Conv_296/out0_2
+I Running 66 iterations
+E Catch exception when building RKNN model!
+E Traceback (most recent call last):
+E   File "/home/bill/anaconda3/envs/py36-rknn/lib/python3.6/site-packages/tensorflow_core/python/client/session.py", line 1183, in _run
+E     feed_dict_tensor, options, run_metadata)
+E   File "/home/bill/anaconda3/envs/py36-rknn/lib/python3.6/site-packages/tensorflow_core/python/client/session.py", line 1361, in _do_run
+E     run_metadata)
+E   File "/home/bill/anaconda3/envs/py36-rknn/lib/python3.6/site-packages/tensorflow_core/python/client/session.py", line 1367, in _do_call
+E     return fn(*args)
+E   File "/home/bill/anaconda3/envs/py36-rknn/lib/python3.6/site-packages/tensorflow_core/python/client/session.py", line 1352, in _run_fn
+E     target_list, run_metadata)
+E   File "/home/bill/anaconda3/envs/py36-rknn/lib/python3.6/site-packages/tensorflow_core/python/client/session.py", line 1445, in _call_tf_sessionrun
+E     run_metadata)
+E KeyboardInterrupt
+E Please feedback the detailed log file <log_feedback_to_the_rknn_toolkit_dev_team.log> to the RKNN Toolkit development team.
+E You can also check github issues: https://github.com/rockchip-linux/rknn-toolkit/issues
